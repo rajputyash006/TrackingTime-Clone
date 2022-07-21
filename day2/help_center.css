@@ -1,0 +1,154 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+      
+}
+#pr_upperdiv{
+    width: 100%;
+    height: 220px;
+    background-color: black;
+    
+}
+
+.pr_upperdiv_container{
+    width: 70%;
+    margin: auto;
+  
+}
+
+.pr_upperdiv_container_logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   margin-top: 20px;
+}
+#pr_upperdiv_container_logo_1 img{
+width: 200px;
+}
+#pr_upperdiv_container_logo_2 a{
+   margin-right: 30px;
+   font-size: 20px;
+   color: white;
+}
+
+.pr_header__headline{
+    font-size: 28px;
+    font-weight: 300;
+    margin-top: 20px;
+    color: white;
+}
+#pr_upperdiv_container_search{
+    width: 100%;
+    height: 70px;
+    margin-top: 20px;
+   
+    font-size: 20px;
+}
+.pr_main_section{
+    width: 100%;
+    background-color: #f3f5f7;
+}
+.pr_parent_section{
+    margin: auto;
+    width: 60%;
+     
+}
+.pr_parent_section_append{
+display: grid;
+grid-template: auto/repeat(1,auto);
+
+padding: 20px 0px;
+gap: 20px;
+
+}
+.pr_child_section_1_avtar{
+    display: flex;
+    gap: 20px;
+    color: #565867;
+}
+.pr_avatar__image{
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    opacity: .8;
+}
+.pr_child_section_A{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    margin-left: 40px;
+}
+
+.pr_child_section_1{
+    display: flex;
+    
+     align-items: center;
+    background-color: #ffffff;
+    padding: 20px; 
+}
+.pr_icone{
+    width: 60px;
+    height: 60px;
+}
+a{
+    text-decoration: none;
+}
+.pr_c__darker{
+    color: #4f5e6b;
+}
+.pr_t_h3_primary{
+    color: #282828;
+}
+body{
+    color: #565867;
+}
+/* .pr_child_section_1_avtar_size{
+    display: flex;
+   
+    height: 50px;
+    line-height: 1.1;
+} */
+
+.pr_help_center_footer_main{
+    width: 100%;
+    margin-top: 35px;
+   
+    
+}
+    
+.pr_help_center_footer_parent{
+    width: 100%;
+ 
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #dfe0e7;
+}
+.pr_help_center_footer_inner{
+    width: 80%;
+       
+    /* justify-content: center;
+    align-items: center; */
+   
+}
+.pr_footer__logo img{
+   width: 200px;
+   height: 50px;
+   vertical-align: middle;
+   line-height: 30px;
+  
+}
+.pr_footer__link-list{
+    display: flex;
+    gap: 30px;
+    color: 
+    #f3f5f7;
+    margin-top: 20px;
+}
+.pr_footer__link-list a{
+   
+    color: #565867;
+   
+}
