@@ -29,8 +29,8 @@ function navbar(){
           
         </ul>
        
-        <button class="btn btn-outline-success " style="margin-right: 20px;width:15%;" type="submit">TRY IT FREE</button>
-          <button class="btn btn-success " style="width:15%;margin-right: 70px" type="submit">login</button>
+        <button class="btn btn-outline-success " style="margin-right: 20px;width:25%;" type="submit">TRY IT FREE</button>
+          <button class="btn btn-success " style="width:15%;margin-right: 25px" type="submit">login</button>
   
       </div>
     </div>
