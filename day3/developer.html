@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../help_center.css">
+</head>
+<body>
+    <div id="pr_upperdiv"></div>
+     <div class="pr_developer_main">
+        <div class="pr_developer_parent">
+              <div class="pr_developer_child">
+                <h1>Public Api</h1>
+                <div><h2>Learn how to use our public API to build great things.</h2> </div>
+                <div>
+                    <div class="pr_child_section_B" style="margin-top: 40px;">
+                        <h2 class="pr_t_h3_primary"></h2>
+                        <div class="pr_child_section_1_avtar">
+                            <div class="pr_child_section_1_avtar_size">
+                                <img src="https://static.intercomassets.com/avatars/5123729/square_128/julia_foto_cv-1628108917.jpg"
+                                    alt="" class="pr_avatar__image">
+                            </div>
+
+                            <div class="pr_avatar__info">
+                                <div>
+                                    <span class="pr_c__darker">
+                                        4 articles in this collection
+                                    </span>
+                                    <br>
+                                    Written by <span class="pr_c__darker"> Julia Chulman</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="developer_container_1">
+                    <p class="">
+                    The TrackingTime Public API allows you to integrate our time tracking features and your account data into your own applications and connect them to any 3rd party applications you use.</p>
+                    <p class="">Visit the Public API documentation to get an overview of all available services and user guides on how to get started. If you have any questions regarding the API please feel free to reach out to us anytime.</p>
+                    <p class="">If something doesn't work as expected, <b>don't forget to include your code</b>. Our engineering team will be happy to assist you.<br><br></p>
+                    <div class="developer_click_api">
+                     <a href="https://api.trackingtime.co/doc/index.html"><button  class="pr_developer_btn_api" onclick="api()">View Api doc</button></a> 
+                    </div>
+                    <!-- <p class="intercom-align-left"></p><p class="intercom-align-left"></p></div> -->
+              </div>
+        </div>
+     </div>
+    <div id="pr_help_center_footer_main"></div>
+</body>
+</html>
+<script type="module">
+ import prnav from "../help_center_nav.js"
+document.getElementById("pr_upperdiv").innerHTML=prnav();
+
+import footer from "../hep_center_footer.js";
+
+document.getElementById("pr_help_center_footer_main").innerHTML=footer();
+
+let api=()=>{
+    window.location.href="https://api.trackingtime.co/doc/index.html";
+}
+</script>
