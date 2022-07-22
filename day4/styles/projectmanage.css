@@ -1,0 +1,282 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  body {
+    background-color: #f6f8f9;
+  }
+  
+  #yadiv1 {
+    text-align: center;
+  }
+  
+  #yadiv1 > img:nth-child(1) {
+    width: 250px;
+    height: 300px;
+  }
+  
+  #yadiv1 > h1:nth-child(2) {
+    width: 40%;
+    margin: auto;
+    margin-top: -50px;
+    color: #282828;
+    font-family: -apple-system, BlinkMacSystemFont, "segoe ui", Roboto, Helvetica,
+      Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+  }
+  
+  #yadiv2 {
+    width: 35%;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  #yadiv2 > input {
+    height: 35px;
+    width: 55%;
+    text-align: center;
+    margin-right: 5px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    outline: none;
+  }
+  
+  #yadiv2 > input::placeholder {
+    color: RGB(40, 40, 40);
+    font-family: barlow, sans-serif;
+    font-size: 16px;
+  }
+  
+  #yadiv2 > button {
+    height: 39px;
+    width: 40%;
+    text-align: center;
+    background-color: #00ad95;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  #yadiv2 > button:hover {
+    background-color: #057969;
+  }
+  
+  #yadiv3 {
+    text-align: end;
+    width: 29%;
+    margin: auto;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #7f8488;
+    font-family: -apple-system, BlinkMacSystemFont, "segoe ui", Roboto, Helvetica,
+      Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+  }
+  
+  #yadiv4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 35%;
+    margin: auto;
+    margin-top: 5px;
+    text-align: center;
+  }
+  
+  #yadiv4 > img {
+    height: 25px;
+    width: 25px;
+  }
+  
+  #yadiv4 > a {
+    font-size: 18px;
+    text-decoration: wavy;
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, "segoe ui", Roboto, Helvetica,
+      Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+  }
+  
+  #yadiv5 {
+    width: 80%;
+    height: 450px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #yadiv5 > div:nth-child(1) > img {
+    height: 100%;
+    width: 100%;
+  }
+  
+  #yadiv5 > div:nth-child(2) {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 60px;
+    font-family: -apple-system, BlinkMacSystemFont, "segoe ui", Roboto, Helvetica,
+      Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+  }
+  
+  #yadiv5 > div:nth-child(2) > h1 {
+    color: #1d252c;
+  }
+  
+  #yadiv5 > div:nth-child(2) > h3 {
+    width: 90%;
+    margin-top: 40px;
+    color: rgb(148, 143, 143);
+  }
+  
+  #yadiv5 > div:nth-child(2) > h3 > a {
+    color: rgb(148, 143, 143);
+  }
+  
+  #yadiv6 {
+    width: 80%;
+    height: 450px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #yadiv6 > div:nth-child(1) {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: -apple-system, BlinkMacSystemFont, "segoe ui", Roboto, Helvetica,
+      Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+  }
+  
+  #yadiv6 > div:nth-child(1) > h1 {
+    color: #1d252c;
+  }
+  
+  #yadiv6 > div:nth-child(1) > h3 {
+    width: 100%;
+    font-size: 18px;
+    color: #c9c5c5;
+    margin-top: 40px;
+    color: rgb(148, 143, 143);
+  }
+  
+  #yadiv6 > div:nth-child(1) > h3 > a {
+    color: rgb(148, 143, 143);
+  }
+  
+  #yadiv6 > div:nth-child(2) > img {
+    height: 100%;
+    width: 100%;
+  }
+  
+  #yah2 {
+    text-align: center;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, "segoe ui", Roboto, Helvetica,
+      Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+  }
+  
+  #yadiv7 {
+    width: 80%;
+    height: 450px;
+    margin: auto;
+    margin-bottom: 25px;
+    display: flex;
+    gap: 50px;
+  }
+  
+  #yadiv7 > div:nth-child(1) {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, "segoe ui", Roboto, Helvetica,
+      Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+  }
+  
+  #yadiv7 > div:nth-child(1) > button:first-child {
+    background-color: black;
+    color: white;
+  }
+  
+  #yadiv7 > div:nth-child(1) > button {
+    padding: 20px;
+    height: 70px;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    text-align: start;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+      rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  }
+  
+  #yadiv7 > div:nth-child(2) > img {
+    height: 100%;
+    width: 100%;
+  }
+  
+  #signupbtn2 {
+    display: block;
+    margin: auto;
+    height: 35px;
+    font-size: 14px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    background-color: #00ad95;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 25px;
+    cursor: pointer;
+  }
+  
+  #signupbtn2:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  #bottomlink {
+    display: flex;
+    gap: 25px;
+    padding: 70px;
+    background-color: white;
+    color: #282828;
+  }
+  
+  #bottomlink11 {
+    text-align: center;
+  }
+  
+  #bottomlink12 {
+    cursor: pointer;
+  }
+  
+  #bottomlink12 > img {
+    height: 200px;
+    width: 250px;
+  }
+  
+  #bottomlink22 > img {
+    height: 200px;
+    width: 250px;
+  }
+  
+  #bottomlink33 > img {
+    height: 200px;
+    width: 250px;
+  }
+  
+  #bottomlink44 > img {
+    height: 200px;
+    width: 250px;
+  }
