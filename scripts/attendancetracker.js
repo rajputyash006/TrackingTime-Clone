@@ -1,7 +1,7 @@
-import navbar from "../navbar.js";
+import navbar from "../scripts/navbar.js";
 document.getElementById("navbar").innerHTML = navbar();
 
-import footer from "../footer.js";
+import footer from "../scripts/footer.js";
 document.getElementById("footer").innerHTML = footer();
 
 let btn1 = document.getElementById("btnimg1");
