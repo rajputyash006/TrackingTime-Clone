@@ -1,0 +1,338 @@
+*{
+    font-family: 'Ibarra Real Nova', serif;
+font-family: 'Roboto', sans-serif;
+font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+background-color: #f6f8f9;
+}
+/* //h2 tag property  */
+.time1{
+    font-size: 25px;
+    font-weight: 700;
+    word-spacing: 3px;
+    letter-spacing: 3px;
+    
+    /* line-height: 2rem; */
+}
+/* //h1 tag property  */
+.time2{
+    font-size: 70px;
+    font-weight: 700;
+    margin: -10px 0 0 0;
+  
+}
+#firstTracking{
+    width: 90%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+     /* input and its div  css here */
+#time_input{
+    height: 78px;width:650px ;
+    border: 0px solid black;
+    justify-content: center;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #ffff;
+}
+#time_input>input{
+    /* margin-top: 3%; */
+    border: 0;
+    width: 800px;
+    height: 90px;    
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    color: #000;
+    font-weight: 700;
+    letter-spacing: .1em;
+}
+::placeholder {
+    font-size: 18px;
+    /* text-align: center; */
+    color: #000;
+    word-spacing: 3px;
+    letter-spacing: 3px;
+  }
+
+ .background_content{
+    background-image: url("https://trackingtime.co/wp-content/themes/trackingtime-v4/img/layout/integrations/lines-integration.svg");
+      /* background-image: -webkit-repeating-linear-gradient(3); */
+    /* width: 100%; */
+      background-size: auto;
+      background-size:75%;
+      background-repeat:no-repeat;
+      background-position:center center ;
+    
+  } 
+  .time_para{
+font-size: 22px;
+color: #8a8789;
+font-weight: 600;
+
+  }
+  /* ************************************* */
+  /* bottom mobile design  */
+
+  .mobile_design{
+    width: 90%;
+     display: flex;
+    justify-content: space-around;
+    margin-left: -5%;
+  }
+  #design_child{
+    margin-top: 18%;
+    
+  }
+  #design_child>h1{
+    font-size: 45px;
+    font-weight: 700;
+  }
+  #design_child>p{
+    font-size: 24px;
+    font-weight: 600;
+    color: #8a8789;
+  }
+#design_grand>img{
+background-color: #2c3135;
+width: 80px;
+margin-right: 5%;
+border-radius: 10px;
+margin-top: 8%;
+}
+.design_img-box>img{
+    width: 720px;
+}
+
+/* <----------get started sign in page with google as well-------> */
+
+#get_started{
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: -30px;
+}
+#get_started>img{
+   width: 75px;height: 130px;
+   margin-bottom: -50px;
+}
+#get_started>h4{
+   font-size: 45px;
+   font-weight: 700;
+   margin-bottom: -5px;
+}
+.getp{
+   font-size: 24px;
+   font-weight: 600;color: #8a8789;
+
+}
+
+#get_form>input{
+    width: 740px;
+    height: 60px; 
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;border-radius: 10px;
+}
+#get_form>input + input{
+    width: 740px;
+    height: 60px;
+    text-align: center;border: 0;
+    font-size: 18px;
+    font-weight: 700;border-radius: 10px;
+    background-color:#54ae96;
+    color: #fff;    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#get_mini_para{
+    font-size: 14px;
+    margin-left: 20%;
+}
+.get_key__google{
+    display: flex;
+}
+.get_key__google>h3>img{
+width: 45px;height: 40px;
+}
+.get_key__google>h3{
+margin-left: 20px;margin-top: 30px;
+font-size: 20px;
+font-weight: 700;color: #242a33;
+}
+/* ------------------apps card css here-----------> */
+#container{
+  width: 80%;
+  /* margin-left: 10%; */
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 20px;
+  margin: -3% 0 10% 10%;
+ 
+}
+#appCard{
+  margin: 25% 10% 0 0%;
+  width: 450px;
+  height: 260px;
+
+}
+#appCard>h3{
+ font-size: 35px; color: #282828;font-weight: 700;
+}
+#appCard>p{
+ font-size: 20px; color: #7f8488;
+ font-weight: 550;
+}
+#appLogo{
+  
+  border-radius: 10px;
+  background-color: #fbfcfd;
+  box-shadow: 0 10px 7.51px 0 rgb(0 0 0 / 11%);
+
+  height: 79px;
+  width: 79px;
+  padding: 13px;
+  margin: 0 0 22px;
+  text-align: center;
+
+}
+#appLogo>img{
+  height: 60px; width: 60px;
+  margin-top: 15%;
+}
+/* <-----------------next page css here----------> */
+
+#nextVid>div{
+ /* margin: -5% 0 0 15%; */
+background-color: #f6f8f9;
+}
+#nextVid>div>h1{
+  
+  font-size: 40px;
+  font-weight: 700;
+}
+
+
+#nextVid>div>button{
+  display: inline-block;
+  background: black;
+  border: 2px solid #162b52;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 900;
+  text-align: center;
+  width: 160px;height: 40px;
+  vertical-align: middle;
+  border-radius: 5px;
+   margin:1% 0 0 10%;word-spacing: 2px;
+   letter-spacing: 2px;
+   
+}
+#nextVid>div>button:hover
+{
+    box-shadow: inset 6.5em 0 0 0 var(--hover);
+    background-color: whitesmoke;
+    color: black;
+   
+}
+
+#videoTodo{
+  width: 100%;
+  /* height: 70%; */
+  /* position: absolute; */
+  clip: rect(50px,0px,100px,0px);
+}
+/* --------nextbox2-- */
+
+/* #Logo{
+  
+  border-radius: 10px;
+  background-color: #fbfcfd;
+  box-shadow: 0 10px 7.51px 0 rgb(0 0 0 / 11%);
+  height: 110px;
+  width: 110px;
+  padding: 13px;
+  margin: 0 0 22px;
+  text-align: center;
+
+}
+#Logo>img{
+  height: 100px; width: 100px;
+  margin-top: 5%;
+} */
+#nextbox2{
+   margin:5% 0 0 10%;
+   width: 650px;
+}
+
+#nextbox2>h1{
+ font-size: 35px;
+ font-weight: 400;
+ margin-bottom: 10%;
+
+}#nextbox2>b{
+  font-size: 28px;
+  font-weight: 400;
+  margin-bottom: 4%;
+ }
+#nextbox2>p{
+ font-size: 28px;font-weight: 300;
+color: #282828;
+}
+
+/* --------nextbox3-- */
+#nextbox3{
+  margin:5% 0 0 10%;
+ 
+}
+
+#nextbox3>h1{
+font-size: 35px;
+font-weight: 400;
+margin-bottom: 2%;
+
+}#nextbox3>button{
+ margin-bottom: 2%;
+ display: inline-block;
+ background:whitesmoke;border: 2px solid black;
+ color: black;word-spacing: 2px;letter-spacing: 2px;
+ font-size: 12px;
+ font-weight: 900;
+ text-align: center;
+ width: 160px;height: 40px;
+ vertical-align: middle;
+ border-radius: 5px;
+}
+#nextbox3>button:hover
+{
+    box-shadow: inset 6.5em 0 0 0 var(--hover);
+    background-color:black; 
+    color: whitesmoke;
+   
+}
+#nextbox3>p{
+font-size: 18px;font-weight: 400;
+color: #3e3c3c;
+}
+#nextbox3>p>a{
+font-size: 16px;font-weight: 300;
+color: #000000;font-weight: 500;
+}
+
+/* --------nextbox4-- */
+#nextbox4{
+  margin:5% 0 0 10%;
+ 
+}
+
+#nextbox4>h1{
+font-size: 28px;
+font-weight: 500;
+margin-bottom: 2%;
+}
+#nextbox4>p{
+font-size: 20px;font-weight: 450;
+color: #575555;
+}
+#nextbox4>p>a{
+font-size: 16px;font-weight: 300;
+color: #000000;font-weight: 500;
+}
+
