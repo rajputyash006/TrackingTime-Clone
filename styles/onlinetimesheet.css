@@ -128,6 +128,7 @@ body {
 
 #yadiv5 > div:nth-child(2) > h3 {
   width: 90%;
+  font-size: 20px;
   margin-top: 40px;
   color: rgb(148, 143, 143);
 }
@@ -247,36 +248,29 @@ body {
 
 #bottomlink {
   display: flex;
-  gap: 25px;
+  gap: 15px;
   padding: 70px;
   background-color: white;
   color: #282828;
+}
+
+#bottomlink > div > h5 {
+  font-size: 14px;
+}
+
+#bottomlink > div {
+  width: 25%;
 }
 
 #bottomlink11 {
   text-align: center;
 }
 
-#bottomlink12 {
+#bottomlink11 > div {
   cursor: pointer;
 }
 
-#bottomlink12 > img {
-  height: 200px;
-  width: 250px;
-}
-
-#bottomlink22 > img {
-  height: 200px;
-  width: 250px;
-}
-
-#bottomlink33 > img {
-  height: 200px;
-  width: 250px;
-}
-
-#bottomlink44 > img {
+#bottomlink11 > div > img {
   height: 200px;
   width: 250px;
 }
