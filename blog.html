@@ -1,924 +1,1028 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog|Tracking Time</title>
     <link rel="shortcut icon" href="https://trackingtime.co/wp-content/themes/trackingtime-v4/favicon.ico" />
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
-     <style>
-        #pbigbox{
-            height:500px;
-            width:100%;
+    <style>
+        #pbigbox {
+            height: 500px;
+            width: 100%;
             background-color: #ff6164;
         }
-   .paa{
-    text-decoration:none;
-    color: #000;
-   }
-   .paupper{
-    background-color: #ff6164;
-    height: 200px;
-    border-radius:10px;
-   }
-   .pauppercl{
-    background-color:#00c3a9 ;
-    height: 200px;
-    border-radius:10px;
-   }
 
-   .pauppercl1{
-    background-color:#555f6e ;
-    height: 200px;
-    border-radius:10px;
-   }
+        .paa {
+            text-decoration: none;
+            color: #000;
+        }
 
-   .pauppercl2{
-    background-color: #ffd54f;
-    height: 200px;
-    border-radius:10px;
-   }
-   .pauppercl3{
-    background-color: #63bae2;;
-    height: 200px;
-    border-radius:10px;
-   }
-   .pauppercl4{
-    background-color: #abb9f0;
-    height: 200px;
-    border-radius:10px;
-   }
-   .paimg{
-    width:40%;
-      display:block;
-      margin:auto;
-      padding-top: 60px;
-   }
-   .pacontainer{
-    margin-top: 20px;
-   }
-   .pabag{
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-       width:400px;
-       height:350px;
-       border-radius:10px;
-       margin-top:20px;
-    
-   }
-   .palower{
-    margin-top: 30px;;
-   }
-   .pah4{
-    text-align:center;
-   }
+        .paupper {
+            background-color: #ff6164;
+            height: 200px;
+            border-radius: 10px;
+        }
 
-   .pacontainer{
-    display:grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: auto;
-    justify-content:space-evenly
-   
-   }
-   @media all and (min-width: 768px) and (max-width: 1024px){
-    .pacontainer{
-    display:grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows: auto;
-    justify-content:space-evenly
-   
-   }
-   }
+        .pauppercl {
+            background-color: #00c3a9;
+            height: 200px;
+            border-radius: 10px;
+        }
 
-   @media all and (min-width:320px) and (max-width:767px){
-    .pacontainer{
-    display:grid;
-    grid-template-columns: repeat(1,1fr);
-    grid-template-rows: auto;
-    justify-content:space-evenly
-   
-   }
-   }
+        .pauppercl1 {
+            background-color: #555f6e;
+            height: 200px;
+            border-radius: 10px;
+        }
 
-   #pankajfooter{
+        .pauppercl2 {
+            background-color: #ffd54f;
+            height: 200px;
+            border-radius: 10px;
+        }
+
+        .pauppercl3 {
+            background-color: #63bae2;
+            ;
+            height: 200px;
+            border-radius: 10px;
+        }
+
+        .pauppercl4 {
+            background-color: #abb9f0;
+            height: 200px;
+            border-radius: 10px;
+        }
+
+        .paimg {
+            width: 40%;
+            display: block;
+            margin: auto;
+            padding-top: 60px;
+        }
+
+        .pacontainer {
+            margin-top: 20px;
+        }
+
+        .pabag {
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            width: 400px;
+            height: 350px;
+            border-radius: 10px;
+            margin-top: 20px;
+
+        }
+
+        .palower {
+            margin-top: 30px;
+            ;
+        }
+
+        .pah4 {
+            text-align: center;
+        }
+
+        .pacontainer {
             display: grid;
-            grid-template-columns: repeat(4,1fr);
-            gap:30px;
-            margin-top:20px;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: auto;
+            justify-content: space-evenly
+        }
+
+        @media all and (min-width: 768px) and (max-width: 1024px) {
+            .pacontainer {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: auto;
+                justify-content: space-evenly
+            }
+        }
+
+        @media all and (min-width:320px) and (max-width:767px) {
+            .pacontainer {
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+                grid-template-rows: auto;
+                justify-content: space-evenly
+            }
+        }
+
+        #pankajfooter {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 30px;
+            margin-top: 20px;
         }
     </style>
-      <title>Tracking Time || Website clone</title>
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    </head>
+    <title>Tracking Time || Website clone</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
 <body>
 
     <div id="navbar"></div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-    
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+
+
     <div style="margin-top:50px" id="pbigbox">
-        <h4 style="color:white; text-align:center;padding-top:40px;" >TIMEKEEPING AND PRODUCTIVITY ARTICLES</h4>
-        <img style="height:200px;width:150px;margin-left:700px;" src="https://trackingtime.co/wp-content/uploads/2019/12/generico-1.svg" alt="">
-       <h1 style="color:white;text-align: center;">Benefits Of Integrating Time Tracking Software With Your Access <br>Control System </h1>
+        <h4 style="color:white; text-align:center;padding-top:40px;">TIMEKEEPING AND PRODUCTIVITY ARTICLES</h4>
+        <img style="height:200px;width:150px;margin-left:700px;"
+            src="https://trackingtime.co/wp-content/uploads/2019/12/generico-1.svg" alt="">
+        <h1 style="color:white;text-align: center;">Benefits Of Integrating Time Tracking Software With Your Access
+            <br>Control System
+        </h1>
 
 
-       <button style="margin-left:650px;border-color: white;background-color:#ff6164;border-radius: 5px;border: 2px solid white;width: 200px;height: 50px;"> <a style="color:white" href="">READ ARTICLE</a></button>
+        <button
+            style="margin-left:650px;border-color: white;background-color:#ff6164;border-radius: 5px;border: 2px solid white;width: 200px;height: 50px;">
+            <a style="color:white" href="">READ ARTICLE</a></button>
     </div>
 
 
     <div class="pacontainer">
-      <div class="pabag" style="margin-left:50px;"> 
-        <a class="paa" href="">
+        <div class="pabag" style="margin-left:50px;">
+            <a class="paa" href="">
+
+                <div>
+                    <div class="paupper">
+                        <img class="paimg" src="https://trackingtime.co/wp-content/uploads/2019/12/generico-1.svg"
+                            alt="">
+                    </div>
+                </div>
+                <div class="palower">
+                    <h4 class="pah4">Benefits of Integrating Time Tracking Software With Your Access Control System</h4>
+                </div>
+            </a>
+        </div>
 
-         <div>
-             <div class="paupper">
-                 <img class="paimg" src="https://trackingtime.co/wp-content/uploads/2019/12/generico-1.svg" alt="">
-             </div>
-         </div>
-         <div  class="palower">
-             <h4 class="pah4">Benefits of Integrating Time Tracking Software With Your Access Control System</h4>
-         </div>
-        </a>
-     </div>
 
 
 
+        <div class="pabag">
+            <a class="paa" href="">
 
-     <div class="pabag" > 
-        <a class="paa" href="">
+                <div>
+                    <div class="pauppercl">
+                        <img class="paimg"
+                            src="https://trackingtime.co/wp-content/uploads/2022/05/Management-Practices-to-Improve-Employee-Productivity.svg"
+                            alt="">
+                    </div>
+                </div>
+                <div class="palower">
+                    <h4 class="pah4">How to Use a Kanban Board to Successfully Manage Your Tasks and Projects</h4>
+                </div>
+            </a>
+        </div>
 
-         <div>
-             <div class="pauppercl">
-                 <img class="paimg" src="https://trackingtime.co/wp-content/uploads/2022/05/Management-Practices-to-Improve-Employee-Productivity.svg" alt="">
-             </div>
-         </div>
-         <div  class="palower">
-             <h4 class="pah4">How to Use a Kanban Board to Successfully Manage Your Tasks and Projects</h4>
-         </div>
-        </a>
-     </div>
 
 
+        <div class="pabag" style="margin-right:auto;">
+            <a class="paa" href="">
 
-     <div class="pabag" style="margin-right:auto;" > 
-        <a class="paa" href="">
+                <div>
+                    <div class="pauppercl1">
+                        <img class="paimg"
+                            src="https://trackingtime.co/wp-content/uploads/2022/05/Management-Practices-to-Improve-Employee-Productivity.svg"
+                            alt="">
+                    </div>
+                </div>
+                <div class="palower">
+                    <h4 class="pah4">5 Effective Tips on Running a Successful Business with Remote Employees</h4>
+                </div>
+            </a>
+        </div>
 
-         <div>
-             <div class="pauppercl1">
-                 <img class="paimg" src="https://trackingtime.co/wp-content/uploads/2022/05/Management-Practices-to-Improve-Employee-Productivity.svg" alt="">
-             </div>
-         </div>
-         <div  class="palower">
-             <h4 class="pah4">5 Effective Tips on Running a Successful Business with Remote Employees</h4>
-         </div>
-        </a>
-     </div>
 
 
 
+        <!-- scnd line -->
 
-     <!-- scnd line -->
+        <div class="pabag" style="margin-left:50px;">
+            <a class="paa" href="">
 
-     <div class="pabag" style="margin-left:50px;"> 
-        <a class="paa" href="">
+                <div>
+                    <div class="pauppercl">
+                        <img class="paimg"
+                            src="https://trackingtime.co/wp-content/uploads/2022/04/How-to-Streamline-Workflows-to-Skyrocket-Conversions.svg"
+                            alt="">
+                    </div>
+                </div>
+                <div class="palower">
+                    <h4 class="pah4">Best Practices for Better Data Quality in Business Intelligence</h4>
+                </div>
+            </a>
+        </div>
 
-         <div>
-             <div class="pauppercl">
-                 <img class="paimg" src="https://trackingtime.co/wp-content/uploads/2022/04/How-to-Streamline-Workflows-to-Skyrocket-Conversions.svg" alt="">
-             </div>
-         </div>
-         <div  class="palower">
-             <h4 class="pah4">Best Practices for Better Data Quality in Business Intelligence</h4>
-         </div>
-        </a>
-     </div>
 
 
 
+        <div class="pabag">
+            <a class="paa" href="">
+
+                <div>
+                    <div class="pauppercl2">
+                        <img class="paimg"
+                            src="https://trackingtime.co/wp-content/uploads/2022/04/Positive-Company-Culture-with-a-Remote-Team.svg"
+                            alt="">
+                    </div>
+                </div>
+                <div class="palower">
+                    <h4 class="pah4">Discover the Best Online Tools for Effective Customer Communication on Sales,
+                        Marketing, and Support</h4>
+                </div>
+            </a>
+        </div>
 
-     <div class="pabag" > 
-        <a class="paa" href="">
 
-         <div>
-             <div class="pauppercl2">
-                 <img class="paimg" src="https://trackingtime.co/wp-content/uploads/2022/04/Positive-Company-Culture-with-a-Remote-Team.svg" alt="">
-             </div>
-         </div>
-         <div  class="palower">
-             <h4 class="pah4">Discover the Best Online Tools for Effective Customer Communication on Sales, Marketing, and Support</h4>
-         </div>
-        </a>
-     </div>
 
+        <div class="pabag" style="margin-right:auto;">
+            <a class="paa" href="">
+
+                <div>
+                    <div class="pauppercl1">
+                        <img class="paimg"
+                            src="https://trackingtime.co/wp-content/uploads/2022/04/hybrid-work-model.svg" alt="">
+                    </div>
+                </div>
+                <div class="palower">
+                    <h4 class="pah4">BenProfessional Reports for Your Business</h4>
+                </div>
+            </a>
+        </div>
+
 
 
-     <div class="pabag" style="margin-right:auto;" > 
-        <a class="paa" href="">
+        <!-- third -->
+
+
+        <div class="pabag" style="margin-left:50px;">
+            <a class="paa" href="">
+
+                <div>
+                    <div class="pauppercl3">
+                        <img class="paimg"
+                            src="https://trackingtime.co/wp-content/uploads/2021/10/Remote-and-Hybrid-Team-Productivity-Hacks-1.svg"
+                            alt="">
+                    </div>
+                </div>
+                <div class="palower">
+                    <h4 class="pah4">The Best Solutions for Business Intelligence That You Cannot Miss</h4>
+                </div>
+            </a>
+        </div>
 
-         <div>
-             <div class="pauppercl1">
-                 <img class="paimg" src="https://trackingtime.co/wp-content/uploads/2022/04/hybrid-work-model.svg" alt="">
-             </div>
-         </div>
-         <div  class="palower">
-             <h4 class="pah4">BenProfessional Reports for Your Business</h4>
-         </div>
-        </a>
-     </div>
 
 
+
+        <div class="pabag">
+            <a class="paa" href="">
+
+                <div>
+                    <div class="paupper">
+                        <img class="paimg"
+                            src="https://trackingtime.co/wp-content/uploads/2022/05/Management-Practices-to-Improve-Employee-Productivity.svg"
+                            alt="">
+                    </div>
+                </div>
+                <div class="palower">
+                    <h4 class="pah4">Automation, Machine Learning, AI and the Future of</h4>
+                </div>
+            </a>
+        </div>
 
-     <!-- third -->
 
-   
-     <div class="pabag" style="margin-left:50px;"> 
-        <a class="paa" href="">
 
-         <div>
-             <div class="pauppercl3">
-                 <img class="paimg" src="https://trackingtime.co/wp-content/uploads/2021/10/Remote-and-Hybrid-Team-Productivity-Hacks-1.svg" alt="">
-             </div>
-         </div>
-         <div  class="palower">
-             <h4 class="pah4">The Best Solutions for Business Intelligence That You Cannot Miss</h4>
-         </div>
-        </a>
-     </div>
+        <div class="pabag" style="margin-right:auto;">
+            <a class="paa" href="">
+
+                <div>
+                    <div class="pauppercl">
+                        <img class="paimg"
+                            src="https://trackingtime.co/wp-content/uploads/2021/09/2021-mid-year.recap_.svg" alt="">
+                    </div>
+                </div>
+                <div class="palower">
+                    <h4 class="pah4">Improve Productivity in the Digital Workplace</h4>
+                </div>
+            </a>
+        </div>
+
+        <!-- fourth -->
 
+
+        <div class="pabag" style="margin-left:50px;">
+            <a class="paa" href="">
+
+                <div>
+                    <div class="pauppercl2">
+                        <img class="paimg"
+                            src="https://trackingtime.co/wp-content/uploads/2021/10/Remote-and-Hybrid-Team-Productivity-Hacks-1.svg"
+                            alt="">
+                    </div>
+                </div>
+                <div class="palower">
+                    <h4 class="pah4">Team Communication for Successful International Projects</h4>
+                </div>
+            </a>
+        </div>
 
 
 
-     <div class="pabag" > 
-        <a class="paa" href="">
 
-         <div>
-             <div class="paupper">
-                 <img class="paimg" src="https://trackingtime.co/wp-content/uploads/2022/05/Management-Practices-to-Improve-Employee-Productivity.svg" alt="">
-             </div>
-         </div>
-         <div  class="palower">
-             <h4 class="pah4">Automation, Machine Learning, AI and the Future of</h4>
-         </div>
-        </a>
-     </div>
+        <div class="pabag">
+            <a class="paa" href="">
 
+                <div>
+                    <div class="pauppercl3">
+                        <img class="paimg"
+                            src="https://trackingtime.co/wp-content/uploads/2022/05/Management-Practices-to-Improve-Employee-Productivity.svg"
+                            alt="">
+                    </div>
+                </div>
+                <div class="palower">
+                    <h4 class="pah4">The Best Tools for Remote Work to Avoid Procrastination</h4>
+                </div>
+            </a>
+        </div>
 
 
-     <div class="pabag" style="margin-right:auto;" > 
-        <a class="paa" href="">
 
-         <div>
-             <div class="pauppercl">
-                 <img class="paimg" src="https://trackingtime.co/wp-content/uploads/2021/09/2021-mid-year.recap_.svg" alt="">
-             </div>
-         </div>
-         <div  class="palower">
-             <h4 class="pah4">Improve Productivity in the Digital Workplace</h4>
-         </div>
-        </a>
-     </div>
+        <div class="pabag" style="margin-right:auto;">
+            <a class="paa" href="">
 
-     <!-- fourth -->
+                <div>
+                    <div class="pauppercl">
+                        <img class="paimg"
+                            src="https://trackingtime.co/wp-content/uploads/2019/06/9-benefits-of-using-time-cards-2.svg"
+                            alt="">
+                    </div>
+                </div>
+                <div class="palower">
+                    <h4 class="pah4">Desktop App: The New Solution of TrackingTime</h4>
+                </div>
+            </a>
+        </div>
 
 
-     <div class="pabag" style="margin-left:50px;"> 
-        <a class="paa" href="">
+        <!-- fifth -->
 
-         <div>
-             <div class="pauppercl2">
-                 <img class="paimg" src="https://trackingtime.co/wp-content/uploads/2021/10/Remote-and-Hybrid-Team-Productivity-Hacks-1.svg" alt="">
-             </div>
-         </div>
-         <div  class="palower">
-             <h4 class="pah4">Team Communication for Successful International Projects</h4>
-         </div>
-        </a>
-     </div>
 
+        <div class="pabag" style="margin-left:50px;">
+            <a class="paa" href="">
 
+                <div>
+                    <div class="pauppercl2">
+                        <img class="paimg"
+                            src="https://trackingtime.co/wp-content/uploads/2021/10/Remote-and-Hybrid-Team-Productivity-Hacks-1.svg"
+                            alt="">
+                    </div>
+                </div>
+                <div class="palower">
+                    <h4 class="pah4">Working Remotely: Collaboration Tools for Teams</h4>
+                </div>
+            </a>
+        </div>
 
 
-     <div class="pabag" > 
-        <a class="paa" href="">
 
-         <div>
-             <div class="pauppercl3">
-                 <img class="paimg" src="https://trackingtime.co/wp-content/uploads/2022/05/Management-Practices-to-Improve-Employee-Productivity.svg" alt="">
-             </div>
-         </div>
-         <div  class="palower">
-             <h4 class="pah4">The Best Tools for Remote Work to Avoid Procrastination</h4>
-         </div>
-        </a>
-     </div>
 
+        <div class="pabag">
+            <a class="paa" href="">
 
+                <div>
+                    <div class="pauppercl1">
+                        <img class="paimg"
+                            src="https://trackingtime.co/wp-content/uploads/2022/05/Management-Practices-to-Improve-Employee-Productivity.svg"
+                            alt="">
+                    </div>
+                </div>
+                <div class="palower">
+                    <h4 class="pah4">Benefits of Integrating Time Tracking Software With Your Access Control System</h4>
+                </div>
+            </a>
+        </div>
 
-     <div class="pabag" style="margin-right:auto;" > 
-        <a class="paa" href="">
 
-         <div>
-             <div class="pauppercl">
-                 <img class="paimg" src="https://trackingtime.co/wp-content/uploads/2019/06/9-benefits-of-using-time-cards-2.svg" alt="">
-             </div>
-         </div>
-         <div  class="palower">
-             <h4 class="pah4">Desktop App: The New Solution of TrackingTime</h4>
-         </div>
-        </a>
-     </div>
 
+        <div class="pabag" style="margin-right:auto;">
+            <a class="paa" href="">
 
-     <!-- fifth -->
+                <div>
+                    <div class="pauppercl">
+                        <img class="paimg"
+                            src="https://trackingtime.co/wp-content/uploads/2021/09/2021-mid-year.recap_.svg" alt="">
+                    </div>
+                </div>
+                <div class="palower">
+                    <h4 class="pah4">Benefits of Integrating Time Tracking Software With Your Access Control System</h4>
+                </div>
+            </a>
+        </div>
 
 
-     <div class="pabag" style="margin-left:50px;"> 
-        <a class="paa" href="">
 
-         <div>
-             <div class="pauppercl2">
-                 <img class="paimg" src="https://trackingtime.co/wp-content/uploads/2021/10/Remote-and-Hybrid-Team-Productivity-Hacks-1.svg" alt="">
-             </div>
-         </div>
-         <div  class="palower">
-             <h4 class="pah4">Working Remotely: Collaboration Tools for Teams</h4>
-         </div>
-        </a>
-     </div>
+        <!-- sixth -->
 
 
 
+        <div class="pabag" style="margin-left:50px;">
+            <a class="paa" href="">
 
-     <div class="pabag" > 
-        <a class="paa" href="">
+                <div>
+                    <div class="pauppercl2">
+                        <img class="paimg"
+                            src="https://trackingtime.co/wp-content/uploads/2021/10/Remote-and-Hybrid-Team-Productivity-Hacks-1.svg"
+                            alt="">
+                    </div>
+                </div>
+                <div class="palower">
+                    <h4 class="pah4">Benefits of Integrating Time Tracking Software With Your Access Control System</h4>
+                </div>
+            </a>
+        </div>
 
-         <div>
-             <div class="pauppercl1">
-                 <img class="paimg" src="https://trackingtime.co/wp-content/uploads/2022/05/Management-Practices-to-Improve-Employee-Productivity.svg" alt="">
-             </div>
-         </div>
-         <div  class="palower">
-             <h4 class="pah4">Benefits of Integrating Time Tracking Software With Your Access Control System</h4>
-         </div>
-        </a>
-     </div>
 
 
 
-     <div class="pabag" style="margin-right:auto;" > 
-        <a class="paa" href="">
+        <div class="pabag">
+            <a class="paa" href="">
 
-         <div>
-             <div class="pauppercl">
-                 <img class="paimg" src="https://trackingtime.co/wp-content/uploads/2021/09/2021-mid-year.recap_.svg" alt="">
-             </div>
-         </div>
-         <div  class="palower">
-             <h4 class="pah4">Benefits of Integrating Time Tracking Software With Your Access Control System</h4>
-         </div>
-        </a>
-     </div>
+                <div>
+                    <div class="pauppercl3">
+                        <img class="paimg"
+                            src="https://trackingtime.co/wp-content/uploads/2022/05/Management-Practices-to-Improve-Employee-Productivity.svg"
+                            alt="">
+                    </div>
+                </div>
+                <div class="palower">
+                    <h4 class="pah4">Benefits of Integrating Time Tracking Software With Your Access Control System</h4>
+                </div>
+            </a>
+        </div>
 
 
 
-     <!-- sixth -->
+        <div class="pabag" style="margin-right:auto;">
+            <a class="paa" href="">
 
+                <div>
+                    <div class="pauppercl2">
+                        <img class="paimg"
+                            src="https://trackingtime.co/wp-content/uploads/2020/07/How-time-batching-can-increase-productivity-in-4-easy-steps.svg"
+                            alt="">
+                    </div>
+                </div>
+                <div class="palower">
+                    <h4 class="pah4">Benefits of Integrating Time Tracking Software With Your Access Control System</h4>
+                </div>
+            </a>
+        </div>
 
 
-     <div class="pabag" style="margin-left:50px;"> 
-        <a class="paa" href="">
 
-         <div>
-             <div class="pauppercl2">
-                 <img class="paimg" src="https://trackingtime.co/wp-content/uploads/2021/10/Remote-and-Hybrid-Team-Productivity-Hacks-1.svg" alt="">
-             </div>
-         </div>
-         <div  class="palower">
-             <h4 class="pah4">Benefits of Integrating Time Tracking Software With Your Access Control System</h4>
-         </div>
-        </a>
-     </div>
 
 
+        <!-- seventh  -->
 
 
-     <div class="pabag" > 
-        <a class="paa" href="">
+        <div class="pabag" style="margin-left:50px;">
+            <a class="paa" href="">
 
-         <div>
-             <div class="pauppercl3">
-                 <img class="paimg" src="https://trackingtime.co/wp-content/uploads/2022/05/Management-Practices-to-Improve-Employee-Productivity.svg" alt="">
-             </div>
-         </div>
-         <div  class="palower">
-             <h4 class="pah4">Benefits of Integrating Time Tracking Software With Your Access Control System</h4>
-         </div>
-        </a>
-     </div>
+                <div>
+                    <div class="pauppercl4">
+                        <img class="paimg"
+                            src="https://trackingtime.co/wp-content/uploads/2021/10/Remote-and-Hybrid-Team-Productivity-Hacks-1.svg"
+                            alt="">
+                    </div>
+                </div>
+                <div class="palower">
+                    <h4 class="pah4">Benefits of Integrating Time Tracking Software With Your Access Control System</h4>
+                </div>
+            </a>
+        </div>
 
 
 
-     <div class="pabag" style="margin-right:auto;" > 
-        <a class="paa" href="">
 
-         <div>
-             <div class="pauppercl2">
-                 <img class="paimg" src="https://trackingtime.co/wp-content/uploads/2020/07/How-time-batching-can-increase-productivity-in-4-easy-steps.svg" alt="">
-             </div>
-         </div>
-         <div  class="palower">
-             <h4 class="pah4">Benefits of Integrating Time Tracking Software With Your Access Control System</h4>
-         </div>
-        </a>
-     </div>
-   
+        <div class="pabag">
+            <a class="paa" href="">
 
+                <div>
+                    <div class="pauppercl2">
+                        <img class="paimg"
+                            src="https://trackingtime.co/wp-content/uploads/2022/05/Management-Practices-to-Improve-Employee-Productivity.svg"
+                            alt="">
+                    </div>
+                </div>
+                <div class="palower">
+                    <h4 class="pah4">Benefits of Integrating Time Tracking Software With Your Access Control System</h4>
+                </div>
+            </a>
+        </div>
 
 
 
-     <!-- seventh  -->
+        <div class="pabag" style="margin-right:auto;">
+            <a class="paa" href="">
 
+                <div>
+                    <div class="pauppercl">
+                        <img class="paimg"
+                            src="https://trackingtime.co/wp-content/uploads/2020/07/desktop-app-the-new-solution-of-TrackingTime.svg"
+                            alt="">
+                    </div>
+                </div>
+                <div class="palower">
+                    <h4 class="pah4">Benefits of Integrating Time Tracking Software With Your Access Control System</h4>
+                </div>
+            </a>
+        </div>
 
-     <div class="pabag" style="margin-left:50px;"> 
-        <a class="paa" href="">
 
-         <div>
-             <div class="pauppercl4">
-                 <img class="paimg" src="https://trackingtime.co/wp-content/uploads/2021/10/Remote-and-Hybrid-Team-Productivity-Hacks-1.svg" alt="">
-             </div>
-         </div>
-         <div  class="palower">
-             <h4 class="pah4">Benefits of Integrating Time Tracking Software With Your Access Control System</h4>
-         </div>
-        </a>
-     </div>
+        <!-- eidth -->
 
 
 
 
-     <div class="pabag" > 
-        <a class="paa" href="">
+        <div class="pabag" style="margin-left:50px;">
+            <a class="paa" href="">
 
-         <div>
-             <div class="pauppercl2">
-                 <img class="paimg" src="https://trackingtime.co/wp-content/uploads/2022/05/Management-Practices-to-Improve-Employee-Productivity.svg" alt="">
-             </div>
-         </div>
-         <div  class="palower">
-             <h4 class="pah4">Benefits of Integrating Time Tracking Software With Your Access Control System</h4>
-         </div>
-        </a>
-     </div>
+                <div>
+                    <div class="paupper3">
+                        <img class="paimg"
+                            src="https://trackingtime.co/wp-content/uploads/2021/09/SEO-software-market-trends.svg"
+                            alt="">
+                    </div>
+                </div>
+                <div class="palower">
+                    <h4 class="pah4">Benefits of Integrating Time Tracking Software With Your Access Control System</h4>
+                </div>
+            </a>
+        </div>
 
 
 
-     <div class="pabag" style="margin-right:auto;" > 
-        <a class="paa" href="">
 
-         <div>
-             <div class="pauppercl">
-                 <img class="paimg" src="https://trackingtime.co/wp-content/uploads/2020/07/desktop-app-the-new-solution-of-TrackingTime.svg" alt="">
-             </div>
-         </div>
-         <div  class="palower">
-             <h4 class="pah4">Benefits of Integrating Time Tracking Software With Your Access Control System</h4>
-         </div>
-        </a>
-     </div>
+        <div class="pabag">
+            <a class="paa" href="">
 
+                <div>
+                    <div class="pauppercl4">
+                        <img class="paimg"
+                            src="https://trackingtime.co/wp-content/uploads/2021/08/Improve-time-management.svg" alt="">
+                    </div>
+                </div>
+                <div class="palower">
+                    <h4 class="pah4">Benefits of Integrating Time Tracking Software With Your Access Control System</h4>
+                </div>
+            </a>
+        </div>
 
-     <!-- eidth -->
 
 
+        <div class="pabag" style="margin-right:auto;">
+            <a class="paa" href="">
 
+                <div>
+                    <div class="pauppercl2">
+                        <img class="paimg" src="https://trackingtime.co/wp-content/uploads/2021/07/PM-ProductUpdate.svg"
+                            alt="">
+                    </div>
+                </div>
+                <div class="palower">
+                    <h4 class="pah4">Benefits of Integrating Time Tracking Software With Your Access Control System</h4>
+                </div>
+            </a>
+        </div>
 
-     <div class="pabag" style="margin-left:50px;"> 
-        <a class="paa" href="">
 
-         <div>
-             <div class="paupper3">
-                 <img class="paimg" src="https://trackingtime.co/wp-content/uploads/2021/09/SEO-software-market-trends.svg" alt="">
-             </div>
-         </div>
-         <div  class="palower">
-             <h4 class="pah4">Benefits of Integrating Time Tracking Software With Your Access Control System</h4>
-         </div>
-        </a>
-     </div>
 
 
+        <!-- ninth -->
 
 
-     <div class="pabag" > 
-        <a class="paa" href="">
 
-         <div>
-             <div class="pauppercl4">
-                 <img class="paimg" src="https://trackingtime.co/wp-content/uploads/2021/08/Improve-time-management.svg" alt="">
-             </div>
-         </div>
-         <div  class="palower">
-             <h4 class="pah4">Benefits of Integrating Time Tracking Software With Your Access Control System</h4>
-         </div>
-        </a>
-     </div>
+        <div class="pabag" style="margin-left:50px;">
+            <a class="paa" href="">
 
+                <div>
+                    <div class="pauppercl">
+                        <img class="paimg"
+                            src="https://trackingtime.co/wp-content/uploads/2021/07/Remote-Work-Trends-01.svg" alt="">
+                    </div>
+                </div>
+                <div class="palower">
+                    <h4 class="pah4">Benefits of Integrating Time Tracking Software With Your Access Control System</h4>
+                </div>
+            </a>
+        </div>
 
 
-     <div class="pabag" style="margin-right:auto;" > 
-        <a class="paa" href="">
 
-         <div>
-             <div class="pauppercl2">
-                 <img class="paimg" src="https://trackingtime.co/wp-content/uploads/2021/07/PM-ProductUpdate.svg" alt="">
-             </div>
-         </div>
-         <div  class="palower">
-             <h4 class="pah4">Benefits of Integrating Time Tracking Software With Your Access Control System</h4>
-         </div>
-        </a>
-     </div>
 
+        <div class="pabag">
+            <a class="paa" href="">
 
+                <div>
+                    <div class="pauppercl3">
+                        <img class="paimg"
+                            src="https://trackingtime.co/wp-content/uploads/2021/06/simple-free-productivity-tools.svg"
+                            alt="">
+                    </div>
+                </div>
+                <div class="palower">
+                    <h4 class="pah4">Benefits of Integrating Time Tracking Software With Your Access Control System</h4>
+                </div>
+            </a>
+        </div>
 
 
-     <!-- ninth -->
 
+        <div class="pabag" style="margin-right:auto;">
+            <a class="paa" href="">
 
+                <div>
+                    <div class="paupper">
+                        <img class="paimg"
+                            src="https://trackingtime.co/wp-content/uploads/2022/04/How-to-Streamline-Workflows-to-Skyrocket-Conversions.svg"
+                            alt="">
+                    </div>
+                </div>
+                <div class="palower">
+                    <h4 class="pah4">Benefits of Integrating Time Tracking Software With Your Access Control System</h4>
+                </div>
+            </a>
+        </div>
 
-     <div class="pabag" style="margin-left:50px;"> 
-        <a class="paa" href="">
 
-         <div>
-             <div class="pauppercl">
-                 <img class="paimg" src="https://trackingtime.co/wp-content/uploads/2021/07/Remote-Work-Trends-01.svg" alt="">
-             </div>
-         </div>
-         <div  class="palower">
-             <h4 class="pah4">Benefits of Integrating Time Tracking Software With Your Access Control System</h4>
-         </div>
-        </a>
-     </div>
 
+        <!-- tenfth -->
 
 
 
-     <div class="pabag" > 
-        <a class="paa" href="">
+        <div class="pabag" style="margin-left:50px;">
+            <a class="paa" href="">
 
-         <div>
-             <div class="pauppercl3">
-                 <img class="paimg" src="https://trackingtime.co/wp-content/uploads/2021/06/simple-free-productivity-tools.svg" alt="">
-             </div>
-         </div>
-         <div  class="palower">
-             <h4 class="pah4">Benefits of Integrating Time Tracking Software With Your Access Control System</h4>
-         </div>
-        </a>
-     </div>
+                <div>
+                    <div class="pauppercl3">
+                        <img class="paimg"
+                            src="https://trackingtime.co/wp-content/uploads/2020/07/desktop-app-the-new-solution-of-TrackingTime.svg"
+                            alt="">
+                    </div>
+                </div>
+                <div class="palower">
+                    <h4 class="pah4">Benefits of Integrating Time Tracking Software With Your Access Control System</h4>
+                </div>
+            </a>
+        </div>
 
 
 
-     <div class="pabag" style="margin-right:auto;" > 
-        <a class="paa" href="">
 
-         <div>
-             <div class="paupper">
-                 <img class="paimg" src="https://trackingtime.co/wp-content/uploads/2022/04/How-to-Streamline-Workflows-to-Skyrocket-Conversions.svg" alt="">
-             </div>
-         </div>
-         <div  class="palower">
-             <h4 class="pah4">Benefits of Integrating Time Tracking Software With Your Access Control System</h4>
-         </div>
-        </a>
-     </div>
+        <div class="pabag">
+            <a class="paa" href="">
 
+                <div>
+                    <div class="pauppercl4">
+                        <img class="paimg"
+                            src="https://trackingtime.co/wp-content/uploads/2020/07/Home-office-and-remote-working-solutions-for-team-collaboration.svg"
+                            alt="">
+                    </div>
+                </div>
+                <div class="palower">
+                    <h4 class="pah4">Benefits of Integrating Time Tracking Software With Your Access Control System</h4>
+                </div>
+            </a>
+        </div>
 
 
-     <!-- tenfth -->
 
+        <div class="pabag" style="margin-right:auto;">
+            <a class="paa" href="">
 
+                <div>
+                    <div class="pauppercl3">
+                        <img class="paimg"
+                            src="https://trackingtime.co/wp-content/uploads/2020/07/Whats-new-on-TrackingTime.svg"
+                            alt="">
+                    </div>
+                </div>
+                <div class="palower">
+                    <h4 class="pah4">Benefits of Integrating Time Tracking Software With Your Access Control System</h4>
+                </div>
+            </a>
+        </div>
 
-     <div class="pabag" style="margin-left:50px;"> 
-        <a class="paa" href="">
 
-         <div>
-             <div class="pauppercl3">
-                 <img class="paimg" src="https://trackingtime.co/wp-content/uploads/2020/07/desktop-app-the-new-solution-of-TrackingTime.svg" alt="">
-             </div>
-         </div>
-         <div  class="palower">
-             <h4 class="pah4">Benefits of Integrating Time Tracking Software With Your Access Control System</h4>
-         </div>
-        </a>
-     </div>
 
+        <!-- elevent -->
 
 
 
-     <div class="pabag" > 
-        <a class="paa" href="">
+        <div class="pabag" style="margin-left:50px;">
+            <a class="paa" href="">
 
-         <div>
-             <div class="pauppercl4">
-                 <img class="paimg" src="https://trackingtime.co/wp-content/uploads/2020/07/Home-office-and-remote-working-solutions-for-team-collaboration.svg" alt="">
-             </div>
-         </div>
-         <div  class="palower">
-             <h4 class="pah4">Benefits of Integrating Time Tracking Software With Your Access Control System</h4>
-         </div>
-        </a>
-     </div>
+                <div>
+                    <div class="pauppercl">
+                        <img class="paimg"
+                            src="https://trackingtime.co/wp-content/uploads/2020/07/How-time-batching-can-increase-productivity-in-4-easy-steps.svg"
+                            alt="">
+                    </div>
+                </div>
+                <div class="palower">
+                    <h4 class="pah4">Benefits of Integrating Time Tracking Software With Your Access Control System</h4>
+                </div>
+            </a>
+        </div>
 
 
 
-     <div class="pabag" style="margin-right:auto;" > 
-        <a class="paa" href="">
 
-         <div>
-             <div class="pauppercl3">
-                 <img class="paimg" src="https://trackingtime.co/wp-content/uploads/2020/07/Whats-new-on-TrackingTime.svg" alt="">
-             </div>
-         </div>
-         <div  class="palower">
-             <h4 class="pah4">Benefits of Integrating Time Tracking Software With Your Access Control System</h4>
-         </div>
-        </a>
-     </div>
+        <div class="pabag">
+            <a class="paa" href="">
 
+                <div>
+                    <div class="pauppercl2">
+                        <img class="paimg"
+                            src="https://trackingtime.co/wp-content/uploads/2020/07/How-a-pharmaceutical-consulting-company-improves-project-budget-and-billing.svg"
+                            alt="">
+                    </div>
+                </div>
+                <div class="palower">
+                    <h4 class="pah4">Benefits of Integrating Time Tracking Software With Your Access Control System</h4>
+                </div>
+            </a>
+        </div>
 
 
-     <!-- elevent -->
 
+        <div class="pabag" style="margin-right:auto;">
+            <a class="paa" href="">
 
+                <div>
+                    <div class="pauppercl4">
+                        <img class="paimg"
+                            src="https://trackingtime.co/wp-content/uploads/2020/07/DE-Marktu%CC%88bersicht-Professional.svg"
+                            alt="">
+                    </div>
+                </div>
+                <div class="palower">
+                    <h4 class="pah4">Benefits of Integrating Time Tracking Software With Your Access Control System</h4>
+                </div>
+            </a>
+        </div>
 
-     <div class="pabag" style="margin-left:50px;"> 
-        <a class="paa" href="">
 
-         <div>
-             <div class="pauppercl">
-                 <img class="paimg" src="https://trackingtime.co/wp-content/uploads/2020/07/How-time-batching-can-increase-productivity-in-4-easy-steps.svg" alt="">
-             </div>
-         </div>
-         <div  class="palower">
-             <h4 class="pah4">Benefits of Integrating Time Tracking Software With Your Access Control System</h4>
-         </div>
-        </a>
-     </div>
 
+        <!-- 12th -->
 
 
+        <div class="pabag" style="margin-left:50px;">
+            <a class="paa" href="">
 
-     <div class="pabag" > 
-        <a class="paa" href="">
+                <div>
+                    <div class="pauppercl1">
+                        <img class="paimg"
+                            src="https://trackingtime.co/wp-content/uploads/2020/07/Time-tracking-for-your-digital-agency.svg"
+                            alt="">
+                    </div>
+                </div>
+                <div class="palower">
+                    <h4 class="pah4">Benefits of Integrating Time Tracking Software With Your Access Control System</h4>
+                </div>
+            </a>
+        </div>
 
-         <div>
-             <div class="pauppercl2">
-                 <img class="paimg" src="https://trackingtime.co/wp-content/uploads/2020/07/How-a-pharmaceutical-consulting-company-improves-project-budget-and-billing.svg" alt="">
-             </div>
-         </div>
-         <div  class="palower">
-             <h4 class="pah4">Benefits of Integrating Time Tracking Software With Your Access Control System</h4>
-         </div>
-        </a>
-     </div>
 
 
 
-     <div class="pabag" style="margin-right:auto;" > 
-        <a class="paa" href="">
+        <div class="pabag">
+            <a class="paa" href="">
 
-         <div>
-             <div class="pauppercl4">
-                 <img class="paimg" src="https://trackingtime.co/wp-content/uploads/2020/07/DE-Marktu%CC%88bersicht-Professional.svg" alt="">
-             </div>
-         </div>
-         <div  class="palower">
-             <h4 class="pah4">Benefits of Integrating Time Tracking Software With Your Access Control System</h4>
-         </div>
-        </a>
-     </div>
+                <div>
+                    <div class="pauppercl2">
+                        <img class="paimg"
+                            src="https://trackingtime.co/wp-content/uploads/2019/09/DE-Lo%CC%88sungen-fu%CC%88r-die-.svg"
+                            alt="">
+                    </div>
+                </div>
+                <div class="palower">
+                    <h4 class="pah4">Benefits of Integrating Time Tracking Software With Your Access Control System</h4>
+                </div>
+            </a>
+        </div>
 
 
 
-     <!-- 12th -->
+        <div class="pabag" style="margin-right:auto;">
+            <a class="paa" href="">
 
+                <div>
+                    <div class="paupper">
+                        <img class="paimg"
+                            src="https://trackingtime.co/wp-content/uploads/2020/07/Easy-time-tracking-for-agile-business-teams.svg"
+                            alt="">
+                    </div>
+                </div>
+                <div class="palower">
+                    <h4 class="pah4">Benefits of Integrating Time Tracking Software With Your Access Control System</h4>
+                </div>
+            </a>
+        </div>
 
-     <div class="pabag" style="margin-left:50px;"> 
-        <a class="paa" href="">
 
-         <div>
-             <div class="pauppercl1">
-                 <img class="paimg" src="https://trackingtime.co/wp-content/uploads/2020/07/Time-tracking-for-your-digital-agency.svg" alt="">
-             </div>
-         </div>
-         <div  class="palower">
-             <h4 class="pah4">Benefits of Integrating Time Tracking Software With Your Access Control System</h4>
-         </div>
-        </a>
-     </div>
 
+        <!-- thirteen  -->
 
 
 
-     <div class="pabag" > 
-        <a class="paa" href="">
+        <div class="pabag" style="margin-left:50px;">
+            <a class="paa" href="">
 
-         <div>
-             <div class="pauppercl2">
-                 <img class="paimg" src="https://trackingtime.co/wp-content/uploads/2019/09/DE-Lo%CC%88sungen-fu%CC%88r-die-.svg" alt="">
-             </div>
-         </div>
-         <div  class="palower">
-             <h4 class="pah4">Benefits of Integrating Time Tracking Software With Your Access Control System</h4>
-         </div>
-        </a>
-     </div>
+                <div>
+                    <div class="paupper">
+                        <img class="paimg"
+                            src="https://trackingtime.co/wp-content/uploads/2019/06/9-benefits-of-using-time-cards-2.svg"
+                            alt="">
+                    </div>
+                </div>
+                <div class="palower">
+                    <h4 class="pah4">Benefits of Integrating Time Tracking Software With Your Access Control System</h4>
+                </div>
+            </a>
+        </div>
 
 
 
-     <div class="pabag" style="margin-right:auto;" > 
-        <a class="paa" href="">
 
-         <div>
-             <div class="paupper">
-                 <img class="paimg" src="https://trackingtime.co/wp-content/uploads/2020/07/Easy-time-tracking-for-agile-business-teams.svg" alt="">
-             </div>
-         </div>
-         <div  class="palower">
-             <h4 class="pah4">Benefits of Integrating Time Tracking Software With Your Access Control System</h4>
-         </div>
-        </a>
-     </div>
+        <div class="pabag">
+            <a class="paa" href="">
 
+                <div>
+                    <div class="pauppercl1">
+                        <img class="paimg"
+                            src="https://trackingtime.co/wp-content/uploads/2020/07/time-and-attendance-tracking-now-mandatory-in-spain.svg"
+                            alt="">
+                    </div>
+                </div>
+                <div class="palower">
+                    <h4 class="pah4">Benefits of Integrating Time Tracking Software With Your Access Control System</h4>
+                </div>
+            </a>
+        </div>
 
 
-     <!-- thirteen  -->
 
+        <div class="pabag" style="margin-right:auto;">
+            <a class="paa" href="">
 
+                <div>
+                    <div class="pauppercl4">
+                        <img class="paimg"
+                            src="https://trackingtime.co/wp-content/uploads/2017/12/Manage-work-time-01.svg" alt="">
+                    </div>
+                </div>
+                <div class="palower">
+                    <h4 class="pah4">Benefits of Integrating Time Tracking Software With Your Access Control System</h4>
+                </div>
+            </a>
+        </div>
 
-     <div class="pabag" style="margin-left:50px;"> 
-        <a class="paa" href="">
 
-         <div>
-             <div class="paupper">
-                 <img class="paimg" src="https://trackingtime.co/wp-content/uploads/2019/06/9-benefits-of-using-time-cards-2.svg" alt="">
-             </div>
-         </div>
-         <div  class="palower">
-             <h4 class="pah4">Benefits of Integrating Time Tracking Software With Your Access Control System</h4>
-         </div>
-        </a>
-     </div>
+        <!-- 14 -->
 
 
 
+        <div class="pabag" style="margin-left:50px;">
+            <a class="paa" href="">
 
-     <div class="pabag" > 
-        <a class="paa" href="">
+                <div>
+                    <div class="paupper">
+                        <img class="paimg"
+                            src="https://trackingtime.co/wp-content/uploads/2017/12/productivity-software-to-survive-digital-economy-1.svg"
+                            alt="">
+                    </div>
+                </div>
+                <div class="palower">
+                    <h4 class="pah4">Benefits of Integrating Time Tracking Software With Your Access Control System</h4>
+                </div>
+            </a>
+        </div>
 
-         <div>
-             <div class="pauppercl1">
-                 <img class="paimg" src="https://trackingtime.co/wp-content/uploads/2020/07/time-and-attendance-tracking-now-mandatory-in-spain.svg" alt="">
-             </div>
-         </div>
-         <div  class="palower">
-             <h4 class="pah4">Benefits of Integrating Time Tracking Software With Your Access Control System</h4>
-         </div>
-        </a>
-     </div>
 
 
 
-     <div class="pabag" style="margin-right:auto;" > 
-        <a class="paa" href="">
+        <div class="pabag">
+            <a class="paa" href="">
 
-         <div>
-             <div class="pauppercl4">
-                 <img class="paimg" src="https://trackingtime.co/wp-content/uploads/2017/12/Manage-work-time-01.svg" alt="">
-             </div>
-         </div>
-         <div  class="palower">
-             <h4 class="pah4">Benefits of Integrating Time Tracking Software With Your Access Control System</h4>
-         </div>
-        </a>
-     </div>
+                <div>
+                    <div class="pauppercl4">
+                        <img class="paimg"
+                            src="https://trackingtime.co/wp-content/uploads/2017/12/Reach-your-full-potential.svg"
+                            alt="">
+                    </div>
+                </div>
+                <div class="palower">
+                    <h4 class="pah4">Benefits of Integrating Time Tracking Software With Your Access Control System</h4>
+                </div>
+            </a>
+        </div>
 
 
-     <!-- 14 -->
 
+        <div class="pabag" style="margin-right:auto;">
+            <a class="paa" href="">
 
+                <div>
+                    <div class="pauppercl3">
+                        <img class="paimg" src="https://trackingtime.co/wp-content/uploads/2016/10/Innovative-apps.svg"
+                            alt="">
+                    </div>
+                </div>
+                <div class="palower">
+                    <h4 class="pah4">Benefits of Integrating Time Tracking Software With Your Access Control System</h4>
+                </div>
+            </a>
+        </div>
 
-     <div class="pabag" style="margin-left:50px;"> 
-        <a class="paa" href="">
 
-         <div>
-             <div class="paupper">
-                 <img class="paimg" src="https://trackingtime.co/wp-content/uploads/2017/12/productivity-software-to-survive-digital-economy-1.svg" alt="">
-             </div>
-         </div>
-         <div  class="palower">
-             <h4 class="pah4">Benefits of Integrating Time Tracking Software With Your Access Control System</h4>
-         </div>
-        </a>
-     </div>
+        <!-- 16 -->
 
 
+        <div class="pabag" style="margin-left:50px;">
+            <a class="paa" href="">
 
+                <div>
+                    <div class="pauppercl2">
+                        <img class="paimg"
+                            src="https://trackingtime.co/wp-content/uploads/2015/04/what-are-you-saying-no-to.svg"
+                            alt="">
+                    </div>
+                </div>
+                <div class="palower">
+                    <h4 class="pah4">Benefits of Integrating Time Tracking Software With Your Access Control System</h4>
+                </div>
+            </a>
+        </div>
 
-     <div class="pabag" > 
-        <a class="paa" href="">
 
-         <div>
-             <div class="pauppercl4">
-                 <img class="paimg" src="https://trackingtime.co/wp-content/uploads/2017/12/Reach-your-full-potential.svg" alt="">
-             </div>
-         </div>
-         <div  class="palower">
-             <h4 class="pah4">Benefits of Integrating Time Tracking Software With Your Access Control System</h4>
-         </div>
-        </a>
-     </div>
 
 
+        <div class="pabag">
+            <a class="paa" href="">
 
-     <div class="pabag" style="margin-right:auto;" > 
-        <a class="paa" href="">
+                <div>
+                    <div class="pauppercl">
+                        <img class="paimg"
+                            src="https://trackingtime.co/wp-content/uploads/2015/01/feared-to-do-list.svg" alt="">
+                    </div>
+                </div>
+                <div class="palower">
+                    <h4 class="pah4">Benefits of Integrating Time Tracking Software With Your Access Control System</h4>
+                </div>
+            </a>
+        </div>
 
-         <div>
-             <div class="pauppercl3">
-                 <img class="paimg" src="https://trackingtime.co/wp-content/uploads/2016/10/Innovative-apps.svg" alt="">
-             </div>
-         </div>
-         <div  class="palower">
-             <h4 class="pah4">Benefits of Integrating Time Tracking Software With Your Access Control System</h4>
-         </div>
-        </a>
-     </div>
 
 
-     <!-- 16 -->
+        <div class="pabag" style="margin-right:auto;">
+            <a class="paa" href="">
 
-
-     <div class="pabag" style="margin-left:50px;"> 
-        <a class="paa" href="">
-
-         <div>
-             <div class="pauppercl2">
-                 <img class="paimg" src="https://trackingtime.co/wp-content/uploads/2015/04/what-are-you-saying-no-to.svg" alt="">
-             </div>
-         </div>
-         <div  class="palower">
-             <h4 class="pah4">Benefits of Integrating Time Tracking Software With Your Access Control System</h4>
-         </div>
-        </a>
-     </div>
-
-
-
-
-     <div class="pabag" > 
-        <a class="paa" href="">
-
-         <div>
-             <div class="pauppercl">
-                 <img class="paimg" src="https://trackingtime.co/wp-content/uploads/2015/01/feared-to-do-list.svg" alt="">
-             </div>
-         </div>
-         <div  class="palower">
-             <h4 class="pah4">Benefits of Integrating Time Tracking Software With Your Access Control System</h4>
-         </div>
-        </a>
-     </div>
-
-
-
-     <div class="pabag" style="margin-right:auto;" > 
-        <a class="paa" href="">
-
-         <div>
-             <div class="pauppercl4">
-                 <img class="paimg" src="https://trackingtime.co/wp-content/uploads/2013/12/Manage-To-Do-List.svg" alt="">
-             </div>
-         </div>
-         <div  class="palower">
-             <h4 class="pah4">Benefits of Integrating Time Tracking Software With Your Access Control System</h4>
-         </div>
-        </a>
-     </div>
+                <div>
+                    <div class="pauppercl4">
+                        <img class="paimg"
+                            src="https://trackingtime.co/wp-content/uploads/2013/12/Manage-To-Do-List.svg" alt="">
+                    </div>
+                </div>
+                <div class="palower">
+                    <h4 class="pah4">Benefits of Integrating Time Tracking Software With Your Access Control System</h4>
+                </div>
+            </a>
+        </div>
 
     </div>
-    
-  <div style="margin-top:40px;" id="footer"></div>
+
+    <div style="margin-top:40px;" id="footer"></div>
 </body>
+
 </html>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-<script type="module"  >
-    import navbar from  "./navbar.js"
-    document.getElementById("navbar").innerHTML=navbar()
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+<script type="module">
+    import navbar from "./scripts/navbar.js"
+    document.getElementById("navbar").innerHTML = navbar()
 </script>
 <script type="module">
-    import footer from "./footer.js"
+    import footer from "./scripts/footer.js"
     document.getElementById("footer").innerHTML = footer()
 </script>
 <script src="https://kit.fontawesome.com/51d603f40d.js" crossorigin="anonymous"></script>
