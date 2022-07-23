@@ -66,7 +66,7 @@ btn4.addEventListener("click", () => {
   btn3.style.color = "black";
 });
 
-import bottomlink from "../component/fetch.js";
+import bottomlink from "../day4/component/fetch.js";
 document.getElementById("bottomlink").innerHTML = bottomlink();
 
 // page are link here
