@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-     
         #container {
             text-align: center;
             font-family: -apple-system, BlinkMacSystemFont, "segoe ui", Roboto, Helvetica, Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
@@ -95,7 +94,7 @@
             /* display: grid;
             grid-template-rows: auto; */
             /* height: 250px; */
-            display:flex;
+            display: flex;
             /* width: 250px; */
             margin: auto;
             position: relative;
@@ -220,8 +219,8 @@
             font-size: 14px;
             font-family: -apple-system, BlinkMacSystemFont, "segoe ui", Roboto, Helvetica, Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
             ;
-             margin: 0px 0px 2px;
-            line-height: 28px !important; 
+            margin: 0px 0px 2px;
+            line-height: 28px !important;
             letter-spacing: normal !important;
         }
 
@@ -315,27 +314,28 @@
             font-size: 15px;
 
         }
+
         /* #mainslider{
             display: flex;
         } */
-        #pankajfooter{
+        #pankajfooter {
             display: grid;
-            grid-template-columns: repeat(4,1fr);
-            gap:30px;
-            margin-top:20px;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 30px;
+            margin-top: 20px;
         }
-        
     </style>
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-  
-      
-     
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+
+
 </head>
 
 <body style="background-color: #faf5fb;">
-  
-   
-    
+
+
+
     <div id="navbar"></div>
 
     <div id="container">
@@ -351,7 +351,8 @@
                 <a href="">Sign in with google</a>
             </div>
             <div id="bimg2">
-                <img style="margin-right:180px"  src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/layout/header/ilus-header-2.svg"
+                <img style="margin-right:180px"
+                    src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/layout/header/ilus-header-2.svg"
                     alt="">
             </div>
         </div>
@@ -507,19 +508,21 @@
 
 
     </div>
-   
-      
+
+
     <div id="footer"></div>
     <script src="https://kit.fontawesome.com/51d603f40d.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
-<script type="module"  >
-    import navbar from  "./navbar.js"
-    document.getElementById("navbar").innerHTML=navbar()
+<script type="module">
+    import navbar from "./scripts/navbar.js"
+    document.getElementById("navbar").innerHTML = navbar()
 </script>
 <script type="module">
-    import footer from "./footer.js"
+    import footer from "./scripts/footer.js"
     document.getElementById("footer").innerHTML = footer()
 </script>

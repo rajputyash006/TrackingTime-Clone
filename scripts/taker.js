@@ -1,3 +1,9 @@
+import navbar from "../scripts/navbar.js";
+document.getElementById("navbar").innerHTML = navbar();
+
+import footer from "../scripts/footer.js";
+document.getElementById("footer").innerHTML = footer();
+
 let btn1 = document.getElementById("takeBTN1");
 let imgdiv = document.getElementById("taker_cloud");
 btn1.addEventListener("click", () => {
@@ -48,4 +54,3 @@ btn3.addEventListener("click", () => {
   btn4.style.backgroundColor = "white";
   btn4.style.color = "#282828";
 });
-
