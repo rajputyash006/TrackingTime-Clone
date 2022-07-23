@@ -21,7 +21,7 @@ function navbar() {
               <li><a class="dropdown-item" style="font-weight:bold" href="./timetraker.html">Time Tracker</a></li>
               <li><a class="dropdown-item" style="font-weight:bold" href="./projectmanage.html">Project Management</a></li>
               <li><a class="dropdown-item" style="font-weight:bold" href="./onlinetimesheet.html">Online Timesheet</a></li>
-              <li><a class="dropdown-item" style="font-weight:bold" href="https://trackingtime.co/features/time-cards">Time cards</a></li>
+              <li><a class="dropdown-item" style="font-weight:bold" href="./card.html">Time cards</a></li>
               <li><a class="dropdown-item" style="font-weight:bold" href="./attendancetracker.html">Attendence tracking</a></li>
               <li><a class="dropdown-item" style="font-weight:bold" href="./timereporting.html">Time reporting</a></li>
             </ul>

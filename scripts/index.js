@@ -1,8 +1,8 @@
-import navbar from "..navbar.js";
-document.getElementById("navbar").innerHTML = navbar();
+// import navbar from "..navbar.js";
+// document.getElementById("navbar").innerHTML = navbar();
 
-import footer from "../scripts/footer.js";
-document.getElementById("footer").innerHTML = footer();
+// import footer from "../scripts/footer.js";
+// document.getElementById("footer").innerHTML = footer();
 
 var data = [
   {
@@ -449,11 +449,8 @@ function Cid(xxx) {
   return document.createElement(xxx);
 }
 function append(data) {
-  // console.log('data:', data)
-  let cont = document.getElementById("container");
+  let cont = document.getElementById("containerLK");
   cont.innerHTML = null;
-  //    cont.innerHTML=null
-
   data.forEach((ele) => {
     let div = Cid("div");
     div.id = "appCard";
@@ -480,6 +477,8 @@ function append(data) {
   });
 }
 
+
+
 // <------------next page after click---------->
 let nextPage = (ele) => {
   selected_Card.push(ele);
@@ -491,7 +490,7 @@ let nextPage = (ele) => {
 document.getElementById("search").addEventListener("keydown", search);
 
 function search() {
-  let cont = document.getElementById("container");
+  let cont = document.getElementById("containerLK");
   cont.innerHTML = null;
   let search = document.getElementById("search").value;
   console.log("search:", search);
@@ -500,11 +499,6 @@ function search() {
     if (search == cartData[i].title) {
       let ele = cartData[i];
       alert("thank you for trusting on us !!! ");
-
-      // cont.append(JSON.stringify(cartData[i]))
-      // console.log(cartData[i])
-      // count++;
-      // break;
 
       let div = Cid("div");
       div.id = "appCard";
@@ -532,7 +526,5 @@ function search() {
   }
 }
 
-// if(count==0){
 
 append(cartData);
-// }

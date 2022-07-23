@@ -1,8 +1,4 @@
-import navbar from "../scripts/navbar.js";
-document.getElementById("navbar").innerHTML = navbar();
 
-import footer from "../scripts/footer.js";
-document.getElementById("footer").innerHTML = footer();
 
 let btn1 = document.getElementById("timeBTN1");
 let imgdiv = document.getElementById("timer_cloud");

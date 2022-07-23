@@ -1,208 +1,216 @@
 *{
-    font-family: 'Ibarra Real Nova', serif;
+  font-family: 'Ibarra Real Nova', serif;
 font-family: 'Roboto', sans-serif;
 font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
 background-color: #f6f8f9;
 }
 
 
-  /*<--------------------- bottom mobile design ----------------> */
-
-  .card_mobile_design{
-    width: 80%;
-     display: flex;
-     justify-content:space-between;
-    margin-left: 5%;
-    margin-bottom: 7%;
-  }
-  .card_mobile_design>div+div{
-   margin-left: 50px;
-  }
-  #card_design_child{
-    margin-top: 13%;
-     width: 520px;height: 112px;
-  }
-  #card_design_child>h1{
-     font-size: 38px;
-    font-weight: 750;color: #1d252c;
-    /* margin-bottom: 50px; */
-  }
-  #card_design_child>p{
-    font-size: 22px;
-    font-weight: 500;
-    color: #8a8789;
-      word-spacing: 0px;
-    letter-spacing: 0px;
-    line-height: 2rem;
-  }
+/*<--------------------- bottom mobile design ----------------> */
+.h1Title>h1{
+  margin: 12% 0 0 0%;
+  text-align: center;
+  font-size: 24px; font-weight: 500;
+  word-spacing: 3px;
+  letter-spacing: 2px;
+  line-height: 0rem;
+}
+.card_mobile_design{
+  width: 80%;
+   display: flex;
+   justify-content:space-between;
+  margin-left: 7%;
+  margin-bottom: 7%;
+  margin-top: 8%;
+}
+.card_mobile_design>div+div{
+ margin-left: 50px;
+}
+#card_design_child{
+  margin-top: 13%;
+   width: 520px;height: 112px;
+}
+#card_design_child>h1{
+   font-size: 38px;
+  font-weight: 750;color: #1d252c;
+  /* margin-bottom: 50px; */
+}
+#card_design_child>p{
+  font-size: 22px;
+  font-weight: 500;
+  color: #8a8789;
+    word-spacing: 0px;
+  letter-spacing: 0px;
+  line-height: 2rem;
+}
 
 .card_design_img-box>img{
-    width: 750px;
+  width: 750px;
 }
 .underLinerText{
-    color: #7f8488; font-weight: 700;
+  color: #7f8488; font-weight: 700;
 }
 /* <-------------------box 2--------------> */
 
 #card_design_child2{
-    margin-top: 7%;
-    margin-left: 4%;
-   
-  }
-  #card_design_child2>h1{
-     font-size: 38px;  
-    font-weight: 750;
-    margin-bottom: 50px;color: #1d252c;
-    width: 590px;height: 130px;
-  }
-  #card_design_child2>p{
-      font-size: 22px;
-    font-weight: 500;
-    color: #8a8789;
-      word-spacing: 0px;
-    letter-spacing: 0px;
-    line-height: 2rem;
-  }
+  margin-top: 7%;
+  margin-left: 4%;
+ 
+}
+#card_design_child2>h1{
+   font-size: 38px;  
+  font-weight: 750;
+  margin-bottom: 50px;color: #1d252c;
+  width: 590px;height: 130px;
+}
+#card_design_child2>p{
+    font-size: 22px;
+  font-weight: 500;
+  color: #8a8789;
+    word-spacing: 0px;
+  letter-spacing: 0px;
+  line-height: 2rem;
+}
 
-  
+
 .card_design_img-box2>img{
-    width: 750px;
-    margin-left: 7%;
+  width: 750px;
+  margin-left: 7%;
 }
 
 /* <!-- <-------------------Track breaks, overtime hours and time off------------------- --> */
 #card_design_child3{
-    margin-top: 7%;
-    margin-left: 3%; 
-   
-  }
-  #card_design_child3>h1{
-     font-size: 38px;
-    font-weight: 750;
-    margin-bottom: 50px;color: #1d252c;
-  }
-  #card_design_child3>p{
-    width: 550px;height: 130px;
-    font-size: 22px;
-    font-weight: 500;
-    color: #8a8789;
-    word-spacing: 0px;
-    letter-spacing: 0px;
-    line-height: 2rem;
-  }
+  margin-top: 7%;
+  margin-left: 3%; 
+ 
+}
+#card_design_child3>h1{
+   font-size: 38px;
+  font-weight: 750;
+  margin-bottom: 50px;color: #1d252c;
+}
+#card_design_child3>p{
+  width: 550px;height: 130px;
+  font-size: 22px;
+  font-weight: 500;
+  color: #8a8789;
+  word-spacing: 0px;
+  letter-spacing: 0px;
+  line-height: 2rem;
+}
 
-  
+
 .card_design_img-box3>img{
-    width: 750px;
-    /* margin-left: 5%; */
+  width: 750px;
+  /* margin-left: 5%; */
 }
 
 
 /* <!-- <-------------------Export data to payroll------------------ --> */
 #card_design_child4{
-    margin-top: 10%;
-    margin-left: 2%;
-  }
-  #card_design_child4>h1{
-     font-size: 38px;
-    font-weight: 750;
-    margin-bottom: 50px;
-  }
-  #card_design_child4>p{
-    width: 500px;height: 112px;
-    font-size: 22px;
-    font-weight: 500;
-    color: #8a8789;
-      word-spacing: 0px;
-    letter-spacing: 0px;
-    line-height: 2rem;
-  }
+  margin-top: 10%;
+  margin-left: 2%;
+}
+#card_design_child4>h1{
+   font-size: 38px;
+  font-weight: 750;
+  margin-bottom: 50px;
+}
+#card_design_child4>p{
+  width: 500px;height: 112px;
+  font-size: 22px;
+  font-weight: 500;
+  color: #8a8789;
+    word-spacing: 0px;
+  letter-spacing: 0px;
+  line-height: 2rem;
+}
 
-  
+
 .card_design_img-box4>img{
-    width: 750px;
-    /* margin-left: 5%; */
+  width: 750px;
+  /* margin-left: 5%; */
 }
 
 
 /* --------------------FREE TRIAL BUTTON ----------------------- >*/
 
 .card_FREE_TRIAL{
-  text-align: center;
-  
+text-align: center;
+
 }
 
 .card_FREE_TRIAL>h4{
-   margin-bottom: 4%;margin-top: -5%;
-   font-size: 28px;
-   font-weight: 700;   
-   word-spacing: 3px;
-   letter-spacing: 2.2px;
-   line-height: 2rem;color: #1c1f25;
- }
-.card_FREE_TRIAL>button{
-  width: 400px;margin-top: -1%;
- height: 45px;
- text-align: center;border: 0;
- font-size: 18px;
- font-weight: 550;border-radius: 5px;
- background-color:#54ae96;
- color: #fff;    box-shadow: rgba(255, 253, 253, 0.871) 0px 5px 15px;
+ margin-bottom: 4%;margin-top: -5%;
+ font-size: 28px;
+ font-weight: 700;   
  word-spacing: 3px;
- letter-spacing: 2px;
- line-height: 2rem;
- }
+ letter-spacing: 2.2px;
+ line-height: 2rem;color: #1c1f25;
+}
+.card_FREE_TRIAL>button{
+width: 400px;margin-top: -1%;
+height: 45px;
+text-align: center;border: 0;
+font-size: 18px;
+font-weight: 550;border-radius: 5px;
+background-color:#54ae96;
+color: #fff;    box-shadow: rgba(255, 253, 253, 0.871) 0px 5px 15px;
+word-spacing: 3px;
+letter-spacing: 2px;
+line-height: 2rem;
+}
 /* <----------------------------------taker_budget Approval Image-----------------> */
 #card_budgetApprovalImage{
-    width: 100%;
-    margin-top: 8%;
+  width: 100%;
+  margin-top: 8%;
 }
 
 /* <----------get started sign in page with google as well-------> */
 
 #get_started{
-  width: 80%;
-  margin-left: 10%;
-  margin-bottom: -30px;
+width: 80%;
+margin-left: 10%;
+margin-bottom: -30px;
 }
 #get_started>img{
- width: 75px;height: 130px;
- margin-bottom: -50px;
+width: 75px;height: 130px;
+margin-bottom: -50px;
 }
 #get_started>h4{
- font-size: 45px;
- font-weight: 700;
- margin-bottom: -5px;
+font-size: 45px;
+font-weight: 700;
+margin-bottom: -5px;
 }
 .getp{
- font-size: 24px;
- font-weight: 600;color: #8a8789;
+font-size: 24px;
+font-weight: 600;color: #8a8789;
 
 }
 
 #get_form>input{
-  width: 740px;
-  height: 60px; 
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
-  text-align: center;
-  font-size: 18px;
-  font-weight: 500;border-radius: 10px;
+width: 740px;
+height: 60px; 
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+text-align: center;
+font-size: 18px;
+font-weight: 500;border-radius: 10px;
 }
 #get_form>input + input{
-  width: 740px;
-  height: 60px;
-  text-align: center;border: 0;
-  font-size: 18px;
-  font-weight: 700;border-radius: 10px;
-  background-color:#54ae96;
-  color: #fff;    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+width: 740px;
+height: 60px;
+text-align: center;border: 0;
+font-size: 18px;
+font-weight: 700;border-radius: 10px;
+background-color:#54ae96;
+color: #fff;    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 #get_mini_para{
-  font-size: 14px;
-  margin-left: 20%;
+font-size: 14px;
+margin-left: 20%;
 }
 .get_key__google{
-  display: flex;
+display: flex;
 }
 .get_key__google>h3>img{
 width: 45px;height: 40px;
@@ -215,47 +223,47 @@ font-weight: 700;color: #242a33;
 /* -----------------easy clock and checkout page------------> */
 
 body {
-  background-color: #f6f8f9;
+background-color: #f6f8f9;
 }
 
 #timer_clock {
-  width: 80%;
-  height: 450px;
- margin-left: 7.5%;
-  margin-bottom: 25px;
-  display: flex;
-  gap: 50px;
+width: 80%;
+height: 450px;
+margin-left: 7.5%;
+margin-bottom: 25px;
+display: flex;
+gap: 50px;
 }
 
 #timer_clock > div:nth-child(1) {
-  width: 55%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 25px;
-  font-family: -apple-system, BlinkMacSystemFont, "segoe ui", Roboto, Helvetica,
-    Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+width: 55%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+gap: 25px;
+font-family: -apple-system, BlinkMacSystemFont, "segoe ui", Roboto, Helvetica,
+  Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
 }
 
 #timer_clock > div:nth-child(1) > button:first-child {
-  background-color: #282828;
-  color: white;
+background-color: #282828;
+color: white;
 }
 
 #timer_clock > div:nth-child(1) > button {
-  padding: 20px;
-  height: 90px;
-  background-color: transparent;
-  border: none;
-  font-size: 21px;font-weight:800;
-  text-align: start;
-  border-radius: 10px;
-  cursor: pointer;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
-    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+padding: 20px;
+height: 90px;
+background-color: transparent;
+border: none;
+font-size: 21px;font-weight:800;
+text-align: start;
+border-radius: 10px;
+cursor: pointer;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+  rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
 #timer_clock > div:nth-child(2) > img {
-  height: 105%;
-  width: 105%;
+height: 105%;
+width: 105%;
 }

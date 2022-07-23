@@ -1,174 +1,120 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="./styles/card.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/time.css">
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
 
-  <style>
-    #pankajfooter {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 30px;
-      margin-top: 20px;
-    }
-  </style>
+    <style>
+      #bodyMain{
+        background-color: #f8f9fa;
+      }
+        #pankajfooter {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 30px;
+            margin-top: 20px;
+        }
+        #navbar{
+            box-shadow: none;
+        }
+    </style>
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 </head>
 
-<body>
-  <div id="navbar"></div>
-
-  <!-- ------------------functional time taker------------ -->
-
-  <div class="card_mobile_design">
+<body id="bodyMain">
     <div>
-      <figure class="card_design_img-box">
-        <img src="https://trackingtime.co/wp-content/uploads/2020/04/timecards-feature01.jpg"
-          alt="Time Taker for freelance feature">
-      </figure>
-    </div>
+    <div id="navbar"></div>
 
-    <div id="card_design_child">
-      <h1>Online time cards for easy clock in and out</h1>
-      <p>Employees can clock in and out from the <b>TrackingTime
-          time cards</b> , using their smartphones, or directly in <a class="underLinerText" href="">Slack</a>
-        and <a class="underLinerText" href="">Microsoft Teams</a>.
-      </p>
-    </div>
-  </div>
+    <div id="firstTracking">
+        <h2 class="time1">TRACKING TIME BUTTON FOR CHROME</h2>
 
+        <h1 class="time2">TrackingTime<br>Integrations</h1>
+        <main class="background_content">
+            <h2 class="time1">TIME TRACKING INTEGRATIONS THAT YOU'LL LOVE</h2>
 
+            <!-- //input section here -->
+            <br><br>
 
+            <div id="time_input">
+                <input placeholder="SEARCH YOUR FAVORITE APP!" id="search" type="text">
+            </div>
 
-  <!-- <---------------Get a monthly overview of your team’s attendance------------------------>
+            <br> <br>
 
-  <div class="card_mobile_design">
-
-
-    <div id="card_design_child2">
-      <h1>Get a monthly overview of your team’s attendance</h1>
-      <p>Whether you have 1 or 100 employees, <b> TrackingTime</b>
-        automatically creates monthly <a class="underLinerText" href="">attendance data</a>
-        for your entire team.
-
-
-      </p>
-    </div>
-
-    <div>
-      <figure class="card_design_img-box2">
-        <img src="https://trackingtime.co/wp-content/uploads/2020/04/Timecard-ind-Timecard-feature-01@2x-1-585x400.png"
-          alt="Time Taker for freelance feature">
-      </figure>
-    </div>
-
-  </div>
-
-  <!-- <-------------------Track breaks, overtime hours and time off----------------- -->
-
-  <div class="card_mobile_design">
-    <div>
-      <figure class="card_design_img-box3">
-        <img src="https://trackingtime.co/wp-content/uploads/2020/04/Timecard-ind-Timecard-feature-02@2x-1-585x400.png"
-          alt="Time Taker for freelance feature">
-      </figure>
-    </div>
-
-    <div id="card_design_child3">
-      <h1>Track breaks, overtime hours and time off</h1>
-      <p>Set <b>work schedules</b> for your employees and
-        <a class="underLinerText" href="">keep track</a> of lunch breaks,
-        overtime hours and paid time off, based on your own policies.
-
-      </p>
-    </div>
-  </div>
-
-  <!-- ----------------------------- option salection with image    ------------------------------->
-
-
-
-  <div id="timer_clock">
-
-    <div>
-      <button id="timeBTN1">For salary and hourly employees.</button>
-      <button id="timeBTN2">Approve attendance in batch.</button>
-      <button id="timeBTN3">Stay compliant.</button>
+            <p class="time_para">Improve your time tracking and increase your productivity
+                with these Integrations.</br>
+                See how much time you spend on each task or project! TrackingTime's integrations make it easy to keep
+                track of your <br> billable and non-billable tasks by integrating with more than 30 apps. </p>
+        </main>
+        <p class="time_para">TrackingTime can be integrated with other apps, such as project management, accounting, and
+            customer support. Get <br> instant timesheets and analytics with TrackingTime!</p>
 
     </div>
 
-    <div id="timer_cloud">
-      <img src="https://trackingtime.co/wp-content/uploads/2020/04/Timecard-ind-Timecard-bot-ilus-01@2x-2-585x400.png"
-        alt="img not found">
+    <!-- <---------main appendig cards--------------->
+    <div id="containerLK"></div>
+    <!-- <br><br><br> -->
+    <!-- // bottom section of mobile design  -->
+
+    <div class="mobile_design">
+        <div>
+            <figure class="design_img-box"><img
+                    src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/temp/home/download-section/phone.png"
+                    alt="Time Tracking Integration with your phone"></figure>
+        </div>
+
+        <div id="design_child">
+            <h1>Track Everywhere</h1>
+            <p>Track your time everywhere you work with our <br> mobile apps for iOS and Android.</p>
+
+            <div id="design_grand">
+                <img src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/temp/home/download-section/playstore.png"
+                    alt="">
+                <img src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/temp/home/download-section/apstore.png"
+                    alt="">
+            </div>
+        </div>
     </div>
-  </div>
 
+    <!-- <--------get started sign-in bottom  page --------->
+   
 
-
-  <!-- <-------------------Export data to payroll----------------- -->
-
-
-  <div class="card_mobile_design">
-    <div>
-      <figure class="card_design_img-box4">
-        <img src="https://trackingtime.co/wp-content/uploads/2020/04/Timecard-ind-Timecard-feature-04.svg"
-          alt="Time Taker for freelance feature">
-      </figure>
     </div>
-
-    <div id="card_design_child4">
-      <h1>Export data to payroll</h1>
-      <p>Download approved data to PDF,
-        CSV or Excel <a class="underLinerText" href="">reports</a> and submit them to <b>payroll</b>.
+    <div id="footer"></div>
 
 
-      </p>
-    </div>
-  </div>
-  <!-- -------------------------TRY TRACKINGTIME FREE! button--------------------------------->
-
-
-  <div class="card_FREE_TRIAL">
-    <h4>IT’S TIME FOR BETTER REPORTS.</h4>
-
-    <button>TRY TRACKINGTIME FREE!</button>
-  </div>
-  <!-- --------------------------Budget/approvel/schedule--------------------------------->
-
-  <img id="card_budgetApprovalImage" src="./images/2022-07-21.png" alt="Budget/approvel/schedule" />
-
-  <!-- <--------get started sign-in bottom  page --------->
-  
-  <div id="footer"></div>
+</div>
 </body>
 
 </html>
-<script src="./scripts/card.js" type="module"></script>
+<script src="./scripts/index.js" ></script>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
 
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
 <script src="https://kit.fontawesome.com/51d603f40d.js" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-crossorigin="anonymous"></script>
+
 <script type="module">
-  import navbar from "./navbar.js"
-  document.getElementById("navbar").innerHTML = navbar()
-</script>
-<script type="module">
-  import footer from "./footer.js"
-  document.getElementById("footer").innerHTML = footer()
-</script>
+    import navbar from "./navbar.js"
+    document.getElementById("navbar").innerHTML = navbar()
+  </script>
+  <script type="module">
+    import footer from "./footer.js"
+    document.getElementById("footer").innerHTML = footer()
+  </script>

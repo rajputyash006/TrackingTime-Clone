@@ -12,11 +12,17 @@
 
 
     <style>
+      #bodyMain{
+        background-color: #f8f9fa;
+      }
         #pankajfooter {
             display: grid;
             grid-template-columns: repeat(4, 1fr);
             gap: 30px;
             margin-top: 20px;
+        }ss
+        #navbar{
+            box-shadow: none;
         }
     </style>
 
@@ -24,7 +30,8 @@
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 </head>
 
-<body>
+<body id="bodyMain">
+    <div>
     <div id="navbar"></div>
 
     <div id="firstTracking">
@@ -54,7 +61,7 @@
     </div>
 
     <!-- <---------main appendig cards--------------->
-    <div id="container"></div>
+    <div id="containerLK"></div>
     <!-- <br><br><br> -->
     <!-- // bottom section of mobile design  -->
 
@@ -85,11 +92,11 @@
     <div id="footer"></div>
 
 
-
+</div>
 </body>
 
 </html>
-<script src="./scripts/index.js" type="module"></script>
+<script src="./scripts/index.js" ></script>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
@@ -102,6 +109,7 @@
     integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
     crossorigin="anonymous"></script>
 <script src="https://kit.fontawesome.com/51d603f40d.js" crossorigin="anonymous"></script>
+
 <script type="module">
     import navbar from "./navbar.js"
     document.getElementById("navbar").innerHTML = navbar()
