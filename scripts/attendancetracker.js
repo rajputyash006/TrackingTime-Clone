@@ -1,7 +1,7 @@
 import navbar from "../navbar.js";
 document.getElementById("navbar").innerHTML = navbar();
 
-import footer from "../scripts/footer.js";
+import footer from "../footer.js";
 document.getElementById("footer").innerHTML = footer();
 
 let btn1 = document.getElementById("btnimg1");
@@ -60,19 +60,19 @@ document.getElementById("bottomlink").innerHTML = bottomlink();
 
 // page are link here
 let link1 = () => {
-  window.location.href = "https://trackingtime.co/features/time-cards";
+  window.location.href = "./card.html";
 };
 
 document.getElementById("bottomlink12").addEventListener("click", link1);
 
 let link2 = () => {
-  window.location.href = "https://trackingtime.co/features/project-management";
+  window.location.href = "./projectmanage.html";
 };
 
 document.getElementById("bottomlink22").addEventListener("click", link2);
 
 let link3 = () => {
-  window.location.href = "https://trackingtime.co/features/attendance-tracker";
+  window.location.href = "./attendancetracker.html";
 };
 
 document.getElementById("bottomlink33").addEventListener("click", link3);
@@ -82,3 +82,7 @@ let link4 = () => {
 };
 
 document.getElementById("bottomlink44").addEventListener("click", link4);
+
+document.getElementById("signupbtn2").addEventListener("click", () => {
+  window.location.href = "./SIGNIN.html";
+});
