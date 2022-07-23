@@ -1,5 +1,5 @@
-function navbar(){
-    return `<nav class="navbar navbar-expand fixed-top bg-light">
+function navbar() {
+  return `<nav class="navbar navbar-expand fixed-top bg-light">
     <div class="container-fluid">
       <a class="navbar-brand" href="./index.html"><img style="height:50%;width:50%;margin-left: 100px;"  src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/layout/header/logo.svg" alt=""></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,6 +34,6 @@ function navbar(){
   
       </div>
     </div>
-  </nav>`
+  </nav>`;
 }
-export default navbar
+export default navbar;
