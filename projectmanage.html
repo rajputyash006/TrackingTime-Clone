@@ -7,9 +7,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Time Management</title>
     <link rel="stylesheet" href="./styles/projectmanage.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <style>
+           #pankajfooter {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 30px;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 
 <body>
+    <div id="navbar"></div>
     <div id="yadiv1">
         <img src="https://trackingtime.co/wp-content/uploads/2020/07/home-office-the-best-tools-for-remote-work.svg"
             alt="Img Not Found">
@@ -147,8 +158,16 @@
     <!-- link signup page here -->
     <button id="signupbtn2">START YOUR FREE TRIAL</button>
     <div id="bottomlink"></div>
+    <div id="footer"></div>
 </body>
 
 </html>
-
+<script type="module">
+    import navbar from "./navbar.js"
+    document.getElementById("navbar").innerHTML = navbar()
+</script>
+<script type="module">
+    import footer from "./footer.js"
+    document.getElementById("footer").innerHTML = footer()
+</script>
 <script src="./scripts/projectmanage.js" type="module"></script>
