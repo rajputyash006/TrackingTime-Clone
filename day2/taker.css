@@ -1,0 +1,355 @@
+*{
+    font-family: 'Ibarra Real Nova', serif;
+font-family: 'Roboto', sans-serif;
+font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+background-color: #f6f8f9;
+}
+
+/* <-------------time traker for buisness card form--------------------> */
+#taker_get_started{
+    width: 80%;
+   text-align: center;
+    margin-bottom: 10%;
+    margin-left: 10%;
+}
+#taker_get_started>img{
+   width: 300px;height: 200px;
+   text-align: center;
+   margin-bottom: -30px;
+}
+#taker_get_started>h4{
+   font-size: 45px;
+   font-weight: 700;
+   margin-bottom: 15px;
+}
+#taker_get_form{
+display: flex;text-align: center;
+margin-left: 29%;
+
+}
+#taker_get_form>input{
+    width: 350px;
+    height: 55px; margin-right: 1%;
+    text-align: center;color: #020202;
+    font-size: 18px;
+    font-weight: 600;border-radius: 10px;
+}
+/* #taker_get_form>input{
+    width: 740px;
+    height: 60px; 
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;border-radius: 10px;
+} */
+#taker_get_form>input + input{
+    width: 260px;
+    height: 55px;
+    text-align: center;border: 0;
+    font-size: 18px;
+    font-weight: 550;border-radius: 10px;
+    background-color:#54ae96;
+    color: #fff;    box-shadow: rgba(255, 253, 253, 0.871) 0px 5px 15px;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    line-height: 2rem;
+}
+::placeholder{
+    color: #020202;
+}
+#taker_get_mini_para{
+    font-size: 16px;
+    margin-left: 30%;
+    color:#bfa8b0;
+}
+.taker_get_key__google{
+    display: flex; 
+    margin-left: 40%; 
+}
+.taker_get_key__google>h3>img{
+width: 35px;height: 30px;
+}
+.taker_get_key__google>a>h3{
+margin-left: 20px;
+/* margin-top: 30px; */
+font-size: 20px;
+font-weight: 700;color: #242a33;
+}
+  /*<--------------------- bottom mobile design ----------------> */
+
+  .func_mobile_design{
+    width: 70%;
+     display: flex;
+     justify-content:space-between;
+    margin-left: 5%;
+    margin-bottom: 7%;
+  }
+  .func_mobile_design>div+div{
+   margin-left: 50px;
+  }
+  #func_design_child{
+    margin-top: 12%;
+    
+  }
+  #func_design_child>h1{
+     font-size: 38px;
+    font-weight: 750;
+    /* margin-bottom: 50px; */
+  }
+  #func_design_child>p{
+    width: 572px;height: 112px;
+    font-size: 22px;
+    font-weight: 500;
+    color: #8a8789;
+      word-spacing: 0px;
+    letter-spacing: 0px;
+    line-height: 2rem;
+  }
+
+.func_design_img-box>img{
+    width: 750px;
+}
+.underLinerText{
+    color: #7f8488; font-weight: 700;
+}
+/* <-------------------box 2--------------> */
+
+#func_design_child2{
+    margin-top: 18%;
+    margin-left: 3%;
+  }
+  #func_design_child2>h1{
+     font-size: 38px;
+    font-weight: 750;
+    margin-bottom: 50px;
+  }
+  #func_design_child2>p{
+    width: 642px;height: 112px;
+    font-size: 22px;
+    font-weight: 500;
+    color: #8a8789;
+      word-spacing: 0px;
+    letter-spacing: 0px;
+    line-height: 2rem;
+  }
+
+  
+.func_design_img-box2>img{
+    width: 750px;
+    margin-left: 7%;
+}
+
+/* <!-- <-------------------Track Time in real-time------------------ --> */
+#func_design_child3{
+    margin-top: 7%;
+    margin-left: 3.5%;
+  }
+  #func_design_child3>h1{
+     font-size: 38px;
+    font-weight: 750;
+    margin-bottom: 50px;
+  }
+  #func_design_child3>p{
+    width: 500px;height: 112px;
+    font-size: 22px;
+    font-weight: 500;
+    color: #8a8789;
+      word-spacing: 0px;
+    letter-spacing: 0px;
+    line-height: 2rem;
+  }
+
+  
+.func_design_img-box3>img{
+    width: 750px;
+    /* margin-left: 5%; */
+}
+
+
+/* <!-- <-------------------Track time everywhere------------------- --> */
+#func_design_child4{
+    margin-top: 7%;
+    margin-left: 3.5%;
+  }
+  #func_design_child4>h1{
+     font-size: 38px;
+    font-weight: 750;
+    margin-bottom: 50px;
+  }
+  #func_design_child4>p{
+    width: 500px;height: 112px;
+    font-size: 22px;
+    font-weight: 500;
+    color: #8a8789;
+      word-spacing: 0px;
+    letter-spacing: 0px;
+    line-height: 2rem;
+  }
+
+  
+.func_design_img-box4>img{
+    width: 750px;
+    margin-left: -1%;
+}
+
+/* <!-- -----------------------Desktop App------------------------------------> */
+#func_design_child5{
+    margin-top: 14%;
+    margin-left: 4%;
+  }
+  #func_design_child5>h1{
+     font-size: 38px;
+    font-weight: 750;
+    margin-bottom: 50px;
+  }
+  #func_design_child5>p{
+    width: 600px;height: 112px;
+    font-size: 22px;
+    font-weight: 500;
+    color: #8a8789;
+      word-spacing: 0px;
+    letter-spacing: 0px;
+    line-height: 2rem;
+  }
+
+  
+.func_design_img-box5>img{
+    width: 750px;
+    margin-left: 7%;
+}
+
+/* --------------------FREE TRIAL BUTTON ----------------------- >*/
+
+.taker_FREE_TRIAL{
+  text-align: center;
+  
+}
+
+.taker_FREE_TRIAL>h4{
+   margin-bottom: 4%;margin-top: -5%;
+   font-size: 23px;
+   font-weight: 700;   
+   word-spacing: 3px;
+   letter-spacing: 2px;
+   line-height: 2rem;color: #1c1f25;
+ }
+.taker_FREE_TRIAL>button{
+  width: 290px;margin-top: -1%;
+ height: 45px;
+ text-align: center;border: 0;
+ font-size: 18px;
+ font-weight: 550;border-radius: 5px;
+ background-color:#54ae96;
+ color: #fff;    box-shadow: rgba(255, 253, 253, 0.871) 0px 5px 15px;
+ word-spacing: 3px;
+ letter-spacing: 1px;
+ line-height: 2rem;
+ }
+/* <----------------------------------taker_budget Approval Image-----------------> */
+#taker_budgetApprovalImage{
+    width: 100%;
+    margin-top: 10%;
+}
+
+/* <----------get started sign in page with google as well-------> */
+
+#get_started{
+  width: 80%;
+  margin-left: 8%;
+  margin-bottom: -30px;
+}
+#get_started>img{
+ width: 75px;height: 130px;
+ margin-bottom: -50px;
+}
+#get_started>h4{
+ font-size: 45px;
+ font-weight: 700;
+ margin-bottom: -5px;
+}
+.getp{
+ font-size: 24px;
+ font-weight: 600;color: #8a8789;
+
+}
+
+#get_form>input{
+  width: 740px;
+  height: 60px; 
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;border-radius: 10px;
+}
+#get_form>input + input{
+  width: 740px;
+  height: 60px;
+  text-align: center;border: 0;
+  font-size: 18px;
+  font-weight: 700;border-radius: 10px;
+  background-color:#54ae96;
+  color: #fff;    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#get_mini_para{
+  font-size: 14px;
+  margin-left: 20%;
+}
+.get_key__google{
+  display: flex;
+}
+.get_key__google>h3>img{
+width: 45px;height: 40px;
+}
+.get_key__google>h3{
+margin-left: 20px;margin-top: 30px;
+font-size: 20px;
+font-weight: 700;color: #242a33;
+}
+/* -----------------easy clock and checkout page------------> */
+
+body {
+  background-color: #f6f8f9;
+}
+
+#taker_clock {
+  width: 80%;
+  height: 450px;
+ margin-left: 7.5%;
+  margin-bottom: 25px;
+  display: flex;
+  gap: 50px;
+}
+
+#taker_clock > div:nth-child(1) {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 25px;
+  font-family: -apple-system, BlinkMacSystemFont, "segoe ui", Roboto, Helvetica,
+    Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+}
+
+#taker_clock > div:nth-child(1) > button:first-child {
+  background-color: #282828;
+  color: white;
+}
+
+#taker_clock > div:nth-child(1) > button {
+  padding: 20px;
+  height: 90px;
+  background-color: transparent;
+  border: none;
+  font-size: 21px;font-weight:800;
+  text-align: start;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+#taker_clock > div:nth-child(2) > img {
+  height: 105%;
+  width: 105%;
+}
+
