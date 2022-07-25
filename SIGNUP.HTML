@@ -149,7 +149,7 @@
     event.preventDefault()
     let email = document.getElementById("email").value;
     let password = document.getElementById("password").value;
-    let output = new product(name, email, password)
+    let output = new product(email, password)
     users.push(output)
     localStorage.setItem("users", JSON.stringify(users))
 }
