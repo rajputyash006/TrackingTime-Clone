@@ -12,15 +12,15 @@ This project is developed by team of 5 during construct week of Masai School.
 <div style="display:flex"> 
  
 <div>
-<img src="https://rajputyash006.github.io/images/html.png" alt="html image not found" width="15%">HTML</img>
+<img src="https://rajputyash006.github.io/images/html.png" alt="html image not found" width="10%"/>
 <h2>HTML</h2>
 </div>
 <div>
-<img src="https://rajputyash006.github.io/images/css.png" alt="css image not found" width="15%"/>
+<img src="https://rajputyash006.github.io/images/css.png" alt="css image not found" width="10%"/>
  <h2>CSS</h2>
 </div>
 <div>
-<img src="https://rajputyash006.github.io/images/js.png" alt="javascript image not found" width="10%"/>
+<img src="https://rajputyash006.github.io/images/js.png" alt="javascript image not found" width="7%"/>
  <h2>JavaScript</h2>
 </div>
  
