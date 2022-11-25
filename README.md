@@ -30,9 +30,9 @@ This project is developed by team of 5 during construct week of Masai School.
 
 
 # Main Section 
-- Navbar                       - Home Page                  - Login Page
-- Signup Page                  - Integration Page           - Blog Page
-- Features Section Pages       - Footer
+- Navbar                                           - Home Page                                     - Login Page
+- Signup Page                                      - Integration Page                              - Blog Page
+- Features Section Pages                           - Footer
 
 # Features
 - User and Admin authentication & validation with session uuid.
