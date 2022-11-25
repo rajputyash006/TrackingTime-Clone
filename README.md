@@ -9,7 +9,7 @@ This project is developed by team of 5 during construct week of Masai School.
 # Tech Stack
 
 
-<div display="flex"> 
+<div style="display: flex;"> 
  
 <div>
 <img src="https://rajputyash006.github.io/images/html.png" alt="html image not found" width="15%"/>
