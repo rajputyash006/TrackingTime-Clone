@@ -12,7 +12,7 @@ This project is developed by team of 5 during construct week of Masai School.
 <div style="display:flex"> 
  
 <div>
-<img src="https://rajputyash006.github.io/images/html.png" alt="html image not found" width="15%"/>
+<img src="https://rajputyash006.github.io/images/html.png" alt="html image not found" width="15%">HTML</img>
 <h2>HTML</h2>
 </div>
 <div>
