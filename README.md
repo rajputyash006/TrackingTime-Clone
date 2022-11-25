@@ -20,7 +20,7 @@ This project is developed by team of 5 during construct week of Masai School.
  <h2>CSS</h2>
 </div>
 <div>
-<img src="https://rajputyash006.github.io/images/js.png" alt="javascript image not found" width="5%"/>
+<img src="https://rajputyash006.github.io/images/js.png" alt="javascript image not found" width="6%"/>
  <h2>JavaScript</h2>
 </div>
  
