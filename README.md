@@ -7,7 +7,9 @@ TrackingTime is an intuitive Time Tracking Software. Simplify Timesheets. Get ac
 This project is developed by team of 5 during construct week of Masai School.
 
 # Tech Stack
-<img src="https://rajputyash006.github.io/images/html.png" alt="html image not found" width="100%"/>
+<img src="https://rajputyash006.github.io/images/html.png" alt="html image not found" width="25%"/>
+<img src="https://rajputyash006.github.io/images/css.png" alt="css image not found" width="25%"/>
+<img src="https://rajputyash006.github.io/images/js.png" width="25%"/>
 
 # Main Section 
 - Navbar                       - Home Page                  - Login Page
