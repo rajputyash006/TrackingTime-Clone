@@ -30,24 +30,30 @@ This project is developed by team of 5 during construct week of Masai School.
 
 
 # Main Section 
-- Navbar                                           - Home Page                                     - Login Page
-- Signup Page                                      - Integration Page                              - Blog Page
-- Features Section Pages                           - Footer
+- Navbar                                           
+- Home Page                                     
+- Login Page
+- Signup Page                               
+- Integration Page                            
+- Blog Page
+- Features Section Pages                        
+- Footer
 
 # Features
-- User and Admin authentication & validation with session uuid.
-- Admin Features:
-- Administrator Role of the entire application.
-- Only registered admins with valid session token can add/update/delete route and bus from main database.
-- Admin can access the details of different users and reservations.
+- User authentication & validation with the session.
+- User can Learn the following features
+  1. Time tracking 
+  2. Project Management 
+  3. Make Online Time Sheet
+  4. Attendance Tracking
+  5. Time Reporting
+- Read some blogs on the website
+- Users can visit different pages of the website from the footer section
 
-- User Features:
-- Registering themselves with application, and logging in to get the valid session token.
-- Viewing list of available buses and booking a reservation.
-- Only logged in user can access his reservations, profile updation and other features.
 
 # Contributors
-- https://github.com/sanjanyadav420
 - https://github.com/rajputyash006
-- https://github.com/mukundjha1310
-- https://github.com/BhaveshShahani
+- https://github.com/Pankajsharma8221
+- https://github.com/pramodkumarsharma0754
+- https://github.com/Bhawna32
+- https://github.com/Lokesh777
